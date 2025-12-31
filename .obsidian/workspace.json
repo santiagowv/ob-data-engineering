@@ -8,59 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb51efc7457eeea9",
+            "id": "d993b50853a11b66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Data processing index.md",
+                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data processing index"
+              "title": "Apache Kafka index"
             }
           },
           {
-            "id": "bb2cb54dff13452d",
+            "id": "cba639b1c365b037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Streaming data index.md",
+                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Streaming data index"
+              "title": "Apache Kafka index"
             }
           },
           {
-            "id": "803caf70384c8bcb",
+            "id": "784b2fc3b4959d23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Data processing index.md",
+                "file": "Data processing/Apache Spark/Pyspark/Pyspark records.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data processing index"
+              "title": "Pyspark records"
             }
           },
           {
-            "id": "d34e892eeb894810",
+            "id": "747f1591b9ed3cfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Data processing index.md",
+                "file": "Data processing/Apache Kafka/Apache Kafka CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data processing index"
+              "title": "Apache Kafka CLI"
             }
           }
         ],
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data processing/Data processing index.md",
+                "file": "Data processing/Apache Kafka/Apache Kafka CLI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data processing index"
+              "title": "Outline of Apache Kafka CLI"
             }
           }
         ],
@@ -210,53 +210,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d34e892eeb894810",
+  "active": "747f1591b9ed3cfe",
   "lastOpenFiles": [
-    "Data processing/ACID compliance.md",
+    "Data processing/Apache Kafka/Apache Kafka index.md",
+    "Data processing/Apache Kafka/Apache Kafka consumers.md",
+    "Data processing/Apache Kafka/Apache Kafka producers.md",
+    "Data processing/Apache Kafka/Apache Kafka partitioning.md",
+    "Data processing/Apache Kafka/Apache Kafka topics.md",
+    "Data processing/Apache Kafka/Apache Kafka introduction.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark columns.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark dataframes.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark records.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark driver configuration.md",
+    "Data storage/HDFS/HDFS CLI.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark read data.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark transformations.md",
+    "Images/Pasted image 20251225191250.png",
+    "Images/Pasted image 20251225190019.png",
+    "Data processing/Apache Kafka/Apache Kafka CLI.md",
+    "Images/Pasted image 20251225185354.png",
+    "Images/Pasted image 20251225184756.png",
+    "Images/Pasted image 20251225183758.png",
+    "Images/Pasted image 20251225175541.png",
+    "Images/Pasted image 20251225174704.png",
+    "Images/Pasted image 20251225174211.png",
+    "Images/Pasted image 20251225173854.png",
+    "Images/Pasted image 20251225171145.png",
+    "Data processing/Apache Spark/Pyspark/Pyspark data types.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark actions.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark Spark SQL.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark introduction.md",
+    "Data storage/Data storage index.md",
+    "Data storage/HDFS/HDFS index.md",
     "Data processing/Data processing index.md",
+    "Data storage/HDFS/HDFS introduction.md",
+    "Data storage/HDFS",
+    "Data storage",
     "Data processing/Streaming data index.md",
-    "Data processing/Availability.md",
-    "Data processing/Throughput and latency.md",
-    "Data processing/Kafka/Kafka index.md",
-    "Data processing/Kafka",
-    "Data architecture/Data architecture index.md",
-    "Data processing/EL, ELT, ETL.md",
-    "Data quality/Data quality index.md",
     "Data quality/Quality considerations.md",
+    "Data processing/Apache Spark/Pyspark",
+    "Data processing/Apache Spark",
+    "Data processing/Apache Beam",
+    "Data terms",
+    "Data processing/Apache Kafka",
     "Data quality",
     "Data processing",
-    "Data architecture/Data lake/Data lake index.md",
-    "Data architecture/Data warehouse/Data warehouse introduction.md",
-    "Data architecture/Data warehouse/Data warehouse index.md",
-    "Data architecture/Data lake/Data lake introduction.md",
-    "Data architecture/Data lake/Data lake design.md",
-    "Images/Pasted image 20250906062945.png",
-    "Data architecture/Data lake",
-    "Data architecture/Data warehouse/Data warehouse design.md",
-    "Excalidraw/Drawing 2025-08-24 10.52.42.excalidraw.md",
-    "Data architecture/Data warehouse",
-    "Data architecture",
-    "Bash/Shell scripting.md",
-    "Bash/Bash index.md",
-    "Bash/Shell commands.md",
-    "Bash",
-    "Images/Pasted image 20250517170321.png",
-    "Images/Pasted image 20250517170051.png",
-    "Images/Pasted image 20250517170021.png",
-    "Images/Pasted image 20250517152503.png",
-    "Images/Pasted image 20250517152005.png",
-    "Images/Pasted image 20250517150603.png",
-    "Images/Pasted image 20250517144714.png",
-    "Images/Pasted image 20250517125456.png",
-    "Images/Pasted image 20250517123850.png",
-    "Images",
-    "GCP/GCP Data engineering/GCP Data Engineering.md",
-    "GCP CI/CD.md",
-    "GCP/GCP Architecture Design/GCP Microservice design and architecture.md",
-    "GCP/GCP Architecture Design/GCP Architecture requirements and analysis.md",
-    "GCP/GCP Architecture Design/GCP Architecture Design.md",
-    "GCP/GCP Architecture Design/GCP API design.md",
-    "GCP/GCP DevOps/GCP compute services/Cloud run function",
-    "GCP/GCP DevOps/GCP compute services/Compute engine"
+    "Data architecture/Data lake"
   ]
 }

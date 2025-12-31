@@ -1,0 +1,1 @@
+Unified model for defining both <span style="color:rgb(216, 203, 251)">batch and streaming data-parallel processing</span> pipelines.

@@ -1,6 +1,5 @@
 Index:
-- [[EL, ELT, ETL]]
+- [[Data terms index]]
 - [[Streaming data index]]
-- [[Throughput and latency]]
-- [[Availability]]
-- [[ACID compliance]]]
+- [[Apache Beam index]]
+- [[Apache Spark index]]
