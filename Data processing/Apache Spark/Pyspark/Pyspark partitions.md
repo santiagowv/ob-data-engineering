@@ -2,11 +2,12 @@ Spark <span style="color:rgb(216, 203, 251)">breaks up the data into chunks</spa
 - A DataFrame's partitions <span style="color:rgb(216, 203, 251)">represent how the data is physically distributed across the cluster</span> of machines during execution.
 - <span style="color:rgb(216, 203, 251)">One partition equals a parallelism of only one</span>, even with thousands of executors.
 - Many <span style="color:rgb(216, 203, 251)">partitions but only one executor equals a parallelism of only one</span>.
+- The <span style="color:rgb(216, 203, 251)">recommend partition size is between 1 - 200 MB</span>.
 # Repartition
 We can partition our data <span style="color:rgb(216, 203, 251)">according to some frequently filtered columns</span>, which control the <span style="color:rgb(216, 203, 251)">physical layout of data</span> across the cluster including:
 - The partitioning scheme.
 - The number of partitions.
-We should <span style="color:rgb(216, 203, 251)">only repartition when the number of partitions is greater than the current number</span> of partitions.
+We should <span style="color:rgb(216, 203, 251)">only repartition when the number of executors is greater than the current number</span> of partitions.
 ```python
 df.rdd.getNumPartitions()
 ```
@@ -42,4 +43,21 @@ Rule of thumb:
 ```python
 df.coalesce(50)   # cheap, no full shuffle
 df.repartition(200)  # expensive, full shuffle
+```
+# When to use multi-column partitioning
+- <span style="color:rgb(216, 203, 251)">Low cardinality</span> columns: `country`, `year`, `month`.
+- Columns <span style="color:rgb(216, 203, 251)">frequently used in filters</span>.
+- Hierarchical dimensions.
+# Set number of partitions by size
+When reading a file we can <span style="color:rgb(216, 203, 251)">define the maximum amount of bytes by partition</span>.
+```python
+spark.conf.set("spark.sql.files.maxPartitionBytes", "1000")
+
+# 448K => 1 KB => 448 Partitions
+
+df_modified = spark.read.csv("../data/partitioning/raw/Spotify_Listening_Activity.csv", header = True, inferSchema = True)
+
+modified_partitions = df_modified.rdd.getNumPartitions()
+
+print(f"Number of partitions with modified maxPartitionBytes: {modified_partitions}")
 ```

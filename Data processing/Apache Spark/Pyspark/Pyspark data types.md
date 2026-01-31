@@ -25,3 +25,22 @@ df.select(lit(5), lit("five"), lit(5.0))
 | MapType       | `dict`                                                                                                                              | MapType(keyType, valueType, [valueContainsNull]). Note: The default value of valueContainsNull is True.      |
 | StructType    | `list` or `tuple`                                                                                                                   | StructType(fields). Note: fields is a list of StructFields. Also, fields with the same name are not allowed. |
 | StructField   | The value type in Python of the data type of this field (for example, `Int` for a `StructField` with the data type `IntegerType`)   | StructField(name, dataType, [nullable]) Note: The default value of nullable is True.                         |
+# Cast column data type
+```python
+dataframe = dataframe.withColumn("col", dataframe.col.cast("new_type"))
+```
+
+```python
+df_dedup_timestamp.withColumn("created_timestamp", col("created_timestamp").cast("date"))
+```
+## Cast multiple columns data types
+```python
+df_casted = df_joined.select(df_joined.created_timestamp.cast("timestamp"),
+                             df_joined.customer_id,
+                             df_joined.customer_name,
+                             df_joined.date_of_birth.cast("date"),
+                             df_joined.email,
+                             df_joined.member_since.cast("date"),
+                             df_joined.telephone
+)
+```

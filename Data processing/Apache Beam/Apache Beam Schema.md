@@ -1,0 +1,2 @@
+It's a <span style="color:rgb(216, 203, 251)">type definition</span> for a `PCollection`. 
+- Each field has a <span style="color:rgb(216, 203, 251)">name</span>, a <span style="color:rgb(216, 203, 251)">type</span>, and possibly a <span style="color:rgb(216, 203, 251)">set of user options</span>.

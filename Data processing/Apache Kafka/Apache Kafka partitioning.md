@@ -15,3 +15,7 @@ Too few partitions can <span style="color:rgb(216, 203, 251)">limit throughput a
 Consider data locality to ensure <span style="color:rgb(216, 203, 251)">related data resides within the same partition</span> for efficient processing.
 ## Consumer group size
 The number of <span style="color:rgb(216, 203, 251)">consumers in a consumer group should ideally match the number of partitions for optimal consumption</span>.
+# Sticky partitioner
+The producer <span style="color:rgb(216, 203, 251)">batches messages and sends them to the same partition</span>.
+- It's a <span style="color:rgb(216, 203, 251)">performance improvement feature</span>.
+![[Pasted image 20260125165759.png|600]]

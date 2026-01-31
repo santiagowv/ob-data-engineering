@@ -36,4 +36,4 @@ In this execution plan <span style="color:rgb(216, 203, 251)">sort is a wide tra
 # Lazy evaluation
 Spark will <span style="color:rgb(216, 203, 251)">wait until the very last moment to execute</span> the graph of computation instructions.
 - Spark compiles the plan from the raw DataFrame transformations to a <span style="color:rgb(216, 203, 251)">streamlined physical plan that will run efficiently</span> across the cluster.
-- If we build a large Spark job but specify a filter at the end, Spark will determine that the most efficient way to execute the job is to filter the data first.
+- If we build a large Spark job but specify a filter at the end, <span style="color:rgb(216, 203, 251)">Spark will determine that the most efficient way to execute the job is to filter the data first</span>.

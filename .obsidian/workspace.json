@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02fcc4939b6c8223",
+        "id": "c740442fb5141862",
         "type": "tabs",
         "children": [
           {
-            "id": "d993b50853a11b66",
+            "id": "953e234b1762ea70",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "cba639b1c365b037",
+            "id": "91d77a38a1396fd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,35 +36,35 @@
             }
           },
           {
-            "id": "784b2fc3b4959d23",
+            "id": "1f0caa24260f4c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Apache Spark/Pyspark/Pyspark records.md",
+                "file": "Data processing/Apache Spark/Pyspark/Pyspark columns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pyspark records"
+              "title": "Pyspark columns"
             }
           },
           {
-            "id": "747f1591b9ed3cfe",
+            "id": "7aab2316d8f68b2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Apache Kafka/Apache Kafka CLI.md",
+                "file": "Data architecture/Databricks/Databricks index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apache Kafka CLI"
+              "title": "Databricks index"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data processing/Apache Kafka/Apache Kafka CLI.md",
+                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apache Kafka CLI"
+              "title": "Outline of Apache Kafka index"
             }
           }
         ],
@@ -210,53 +210,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "747f1591b9ed3cfe",
+  "active": "91d77a38a1396fd4",
   "lastOpenFiles": [
+    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python send data.md",
     "Data processing/Apache Kafka/Apache Kafka index.md",
-    "Data processing/Apache Kafka/Apache Kafka consumers.md",
-    "Data processing/Apache Kafka/Apache Kafka producers.md",
-    "Data processing/Apache Kafka/Apache Kafka partitioning.md",
-    "Data processing/Apache Kafka/Apache Kafka topics.md",
-    "Data processing/Apache Kafka/Apache Kafka introduction.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
     "Data processing/Apache Spark/Pyspark/Pyspark columns.md",
     "Data processing/Apache Spark/Pyspark/Pyspark dataframes.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark records.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark driver configuration.md",
-    "Data storage/HDFS/HDFS CLI.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark read data.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark transformations.md",
-    "Images/Pasted image 20251225191250.png",
-    "Images/Pasted image 20251225190019.png",
-    "Data processing/Apache Kafka/Apache Kafka CLI.md",
-    "Images/Pasted image 20251225185354.png",
-    "Images/Pasted image 20251225184756.png",
-    "Images/Pasted image 20251225183758.png",
-    "Images/Pasted image 20251225175541.png",
-    "Images/Pasted image 20251225174704.png",
-    "Images/Pasted image 20251225174211.png",
-    "Images/Pasted image 20251225173854.png",
-    "Images/Pasted image 20251225171145.png",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark dates and timestamps.md",
     "Data processing/Apache Spark/Pyspark/Pyspark data types.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark actions.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark Spark SQL.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark introduction.md",
-    "Data storage/Data storage index.md",
-    "Data storage/HDFS/HDFS index.md",
-    "Data processing/Data processing index.md",
-    "Data storage/HDFS/HDFS introduction.md",
+    "Data processing/Apache Spark/Pyspark/Psypark joins.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark group by.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark working with duplicates.md",
+    "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Databricks python read data.md",
+    "Data architecture/Databricks/Databricks python run SQL.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark read data.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark working with null values.md",
+    "Data processing/Apache Kafka/Apache Kafka partitioning.md",
+    "Images/Pasted image 20260125165759.png",
+    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kakfa Python producer config.md",
+    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python callback functions.md",
+    "Data architecture/Databricks/Databricks lakehouse federation.md",
+    "Data architecture/Databricks/Databricks magic commands and utilities.md",
+    "Data architecture/Databricks/Databricks unity external locations.md",
+    "Data architecture/Databricks/Databricks unity architecture.md",
+    "Data architecture/Databricks/Databrikcs unity volumes.md",
+    "Data architecture/Databricks/Databrikcs unity schemas.md",
+    "Data architecture/Databricks/Databricks unity catalogs.md",
+    "Data architecture/Databricks/Databricks Spark SQL metadata.md",
+    "Data processing/Apache Kafka/Apache Kafka SDK",
+    "Images/Pasted image 20260118201238.png",
+    "Images/Pasted image 20260118181927.png",
+    "Images/Pasted image 20260117140815.png",
+    "Images/Pasted image 20260117142755.png",
+    "Images/Pasted image 20260117135330.png",
+    "Images/Pasted image 20260117134435.png",
+    "Images/Pasted image 20260117133745.png",
+    "Excalidraw/Pasted Image 20260117131538_254.png",
+    "Images/Pasted image 20260113132602.png",
+    "Data architecture/Databricks",
     "Data storage/HDFS",
     "Data storage",
-    "Data processing/Streaming data index.md",
-    "Data quality/Quality considerations.md",
     "Data processing/Apache Spark/Pyspark",
     "Data processing/Apache Spark",
     "Data processing/Apache Beam",
     "Data terms",
     "Data processing/Apache Kafka",
-    "Data quality",
-    "Data processing",
-    "Data architecture/Data lake"
+    "Data quality"
   ]
 }

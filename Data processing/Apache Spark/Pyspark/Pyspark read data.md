@@ -8,6 +8,14 @@ flight_data = spark\
 	.option("header", "true")\
 	.csv("abfss://spark-training@stsparkproject.dfs.core.windows.net/flight-data/2015-summary.csv")
 ```
+## Read data with format method
+```python
+df = spark.read.format("json").load("path")
+```
+## Read data with file type method
+```python
+df = spark.read.json("path")
+```
 # Schema configuration
 ```python
 df = spark.read.format("json")\
@@ -20,6 +28,18 @@ Output:
 Output: StructType(List(StructField(DEST_COUNTRY_NAME,StringType,true),StructField(ORIGIN_COUNTRY_NAME,StringType,true),StructField(count,LongType,true)))
 ```
 ## Schema explicit definition
+### DDL
+```python
+payment_schema = 'payment_id INTEGER, order_id INTEGER, payment_timestamp TIMESTAMP, payment_status INTEGER, payment_method STRING'
+
+df = (
+	spark.read.format("csv")
+		 .option("delimiter", ",")
+		 .schema(payment_schema)
+		 .load("path")
+)
+```
+### Schema methods
 ```python
 from pyspark.sql.types import StructField, StructType, StringType, LongType
 
@@ -38,4 +58,12 @@ df.schema
 Output:
 ```
 Output: StructType(List(StructField(DEST_COUNTRY_NAME,StringType,true),StructField(ORIGIN_COUNTRY_NAME,StringType,true),StructField(count,LongType,true)))
+```
+## Get schema
+```python
+df_pyspark.printSchema()
+```
+# Get data types
+```python
+df_pyspark.dtypes
 ```

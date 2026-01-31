@@ -1,0 +1,1 @@
+Calling the `.toPandas()` method on a Spark DataFrame returns the corresponding `pandas` DataFrame.

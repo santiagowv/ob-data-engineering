@@ -1,0 +1,26 @@
+Index:
+- [[Databricks data lakehouse]]
+- [[Databricks architecture]]
+- [[Databricks magic commands and utilities]]
+- Databricks Unity:
+	- [[Databricks unity architecture]]
+	- [[Databricks unity external locations]]
+	- [[Databricks unity catalogs]]
+	- [[Databrikcs unity schemas]]
+	- [[Databrikcs unity volumes]]
+- Databricks data processing (SQL):
+	- [[Databrikcs Spark SQL read data]]
+	- [[Databricks Spark SQL views]]
+	- [[Databrikcs Spark SQL tables]]
+	- [[Databricks Spark SQL metadata]]
+	- [[Databricks Spark SQL functions]]
+	- [[Databricks Spark SQL json transformations]]
+	- [[Databricks Spark SQL UDFs]]
+	- [[Databricks Spark SQL higher order functions]]
+- Databricks data processing (Python):
+	- [[Databricks python run SQL]]
+	- [[Databricks python read data]]
+	- [[Databricks data profiling]]
+	- [[Databricks write tables]]
+- Lakehouse:
+	- [[Databricks lakehouse federation]]

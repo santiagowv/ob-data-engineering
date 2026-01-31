@@ -29,144 +29,7 @@ Output:
 |Hello|null| 1   | 
 +-----+----+-----+
 ```
-# Selecting columns
-```python
-df.select("DEST_COUNTRY_NAME", "ORIGIN_COUNTRY_NAME").show(2)
-```
-Output:
-```
-+-----------------+-------------------+ 
-|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME| 
-+-----------------+-------------------+ 
-| United States   | Romania           | 
-| United States   | Croatia           | 
-+-----------------+-------------------+
-```
-## Different ways of referring to columns
-```python
-from pyspark.sql.functions import expr, col, column
-
-df.select(
-	expr("DEST_COUNTRY_NAME"),
-	col("DEST_COUNTRY_NAME"),
-	column("DEST_COUNTRY_NAME")
-).show(2)
-```
-Output:
-```
-+-----------------+-----------------+-----------------+
-|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|DEST_COUNTRY_NAME|
-+-----------------+-----------------+-----------------+
-|    United States|    United States|    United States|
-|    United States|    United States|    United States|
-+-----------------+-----------------+-----------------+
-```
-## Referencing columns with expressions (expr)
-It can refer to a <span style="color:rgb(216, 203, 251)">plain column or a string manipulation of a column</span>.
-```python
-df.select(expr("DEST_COUNTRY_NAME AS destination")).show(2)
-```
-### Shorthand selection
-```python
-df.selectExpr("DEST_COUNTRY_NAME AS newColumnName", "DEST_COUNTRY_NAME").show(2)
-```
-### Advanced expressions
-```python
-df.selectExpr(
-	"*", # all original columns
-	"(DEST_COUNTRY_NAME = ORIGIN_COUNTRY_NAME) AS withinCountry"
-).show(2)
-```
-Output:
-```
-+-----------------+-------------------+-----+-------------+
-|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|withinCountry|
-+-----------------+-------------------+-----+-------------+
-|    United States|            Romania|   15|        false|
-|    United States|            Croatia|    1|        false|
-+-----------------+-------------------+-----+-------------+
-```
-### Genreating aggregations
-```python
-df.selectExpr("avg(count)", "count(distinct(DEST_COUNTRY_NAME))").show(2)
-```
-Output:
-```
-+-----------+---------------------------------+
-| avg(count)|count(DISTINCT DEST_COUNTRY_NAME)|
-+-----------+---------------------------------+
-|1770.765625|                              132|
-+-----------+---------------------------------+
-```
-# Adding columns
-## Add columns with select
-```python
-from pyspark.sql.functions import lit
-
-df.select(expr("*"), lit(1).alias("One")).show(2)
-```
-Output:
-```
-+-----------------+-------------------+-----+---+
-|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|One|
-+-----------------+-------------------+-----+---+
-|    United States|            Romania|   15|  1|
-|    United States|            Croatia|    1|  1|
-+-----------------+-------------------+-----+---+
-```
-## Add columns wiht withColumn
-The `withColumn` function takes two arguments; the <span style="color:rgb(216, 203, 251)">column name and the expression</span> that will create the value.
-```python
-df.withColumn("numberOne", lit(1)).show(2)
-```
-Output:
-```
-+-----------------+-------------------+-----+---+
-|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|One|
-+-----------------+-------------------+-----+---+
-|    United States|            Romania|   15|  1|
-|    United States|            Croatia|    1|  1|
-+-----------------+-------------------+-----+---+
-```
-
-```python
-df.withColumn("withinCountry", expr("DEST_COUNTRY_NAME = ORIGIN_COUNTRY_NAME")).show(2)
-```
-Output:
-```
-+-----------------+-------------------+-----+-------------+
-|DEST_COUNTRY_NAME|ORIGIN_COUNTRY_NAME|count|withinCountry|
-+-----------------+-------------------+-----+-------------+
-|    United States|            Romania|   15|        false|
-|    United States|            Croatia|    1|        false|
-+-----------------+-------------------+-----+-------------+
-```
-# Renaming columns
-```PYTHON
-df.withColumnRenamed("DEST_COUNTRY_NAME", "dest").columns
-```
-Output
-```
-['dest', 'ORIGIN_COUNTRY_NAME', 'count']
-```
-# Removing columns
-```python
-df.drop("DEST_COUNTRY_NAME").show(2)
-```
-Output:
-```
-+-------------------+-----+
-|ORIGIN_COUNTRY_NAME|count|
-+-------------------+-----+
-|            Romania|   15|
-|            Croatia|    1|
-+-------------------+-----+
-```
-# Changing a column's type
-```python
-df.withColumn("count2", col("count").cast("long"))
-```
-# Filtering rows
+# Filter rows
 ## Simple filter
 ```python
 df.filter(col("count") < 2).show(2)
@@ -182,7 +45,7 @@ Output:
 |    United States|          Singapore|    1|
 +-----------------+-------------------+-----+
 ```
-## Advanced filter
+## Where filter
 <span style="color:rgb(216, 203, 251)">Chaining multiple filters</span> sequentially.
 ```python
 df.where(col("count") < 2).where(col("ORIGIN_COUNTRY_NAME") != "Croatia").show(2)
@@ -196,7 +59,12 @@ Output:
 |          Moldova|      United States|    1|
 +-----------------+-------------------+-----+
 ```
-## Filtering with or
+## SQL filter
+```python
+df.filter('customer_id is not null')
+```
+## Filter with operators
+### Or operator
 ```python
 from pyspark.sql.functions import instr
 
@@ -205,7 +73,20 @@ descripFilter = instr(df.Description, "POSTAGE") >= 1
 
 df.where(df.StockCode.isin("DOT")).where(priceFilter | descripFilter).show()
 ```
-## Filtering with a column definition
+### And operator
+```python
+from pyspark.sql.functions import instr
+
+priceFilter = col("UnitPrice") > 600
+descripFilter = instr(df.Description, "POSTAGE") >= 1
+
+df.where(df.StockCode.isin("DOT")).where(priceFilter & descripFilter).show()
+```
+### Not operator
+```python
+df_pyspark.filter(~((df_pyspark["Sales"] > 30) & (df_pyspark["Frequency"] < 5))).show()
+```
+## Filter with a column definition
 ```python
 from pyspark.sql.functions import instr
 
@@ -226,7 +107,16 @@ Outut:
 |   607.49|       true|
 +---------+-----------+
 ```
-# Getting unique rows
+## Filter based on date
+```python
+date_df.filter(col("today") > "2022-12-12").show()
+```
+## Filter with null values
+We use object notation.
+```python
+df_filtered = df.filter(df.customer_id.isNotNull())
+```
+# Get unique rows
 ```python
 df.select("DEST_COUNTRY_NAME", "ORIGIN_COUNTRY_NAME").distinct().count()
 ```
@@ -269,7 +159,7 @@ Output:
 |    United States|            Croatia|    1|
 +-----------------+-------------------+-----+
 ```
-# Sorting rows
+# Sort rows
 There are two equivalent functions to sort:
 - `sort`
 - `orderBy`

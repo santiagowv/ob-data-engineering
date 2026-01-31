@@ -10,5 +10,20 @@ Index:
 	- [[Pyspark data types]]
 	- [[Pyspark columns]]
 	- [[Pyspark records]]
+	- [[Pyspark dataframe conversion]]
 - Optimization:
+	- [[Pyspark logical and physical plans]]
+	- [[Pyspark parallelism]]
 	- [[Pyspark partitions]]
+	- [[Pyspark data skewness]]
+- Transformations:
+	- [[Pyspark numbers and statistical functions]]
+	- [[Pyspark working with strings]]
+	- [[Pyspark working with null values]]
+	- [[Pyspark working with duplicates]]
+	- [[Pyspark dates and timestamps]]
+	- [[Pyspark run SQL queries]]
+- Actions:
+	- [[Pyspark collect]]
+	- [[Pyspark group by]]
+	- [[Psypark joins]]

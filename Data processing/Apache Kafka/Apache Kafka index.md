@@ -4,4 +4,10 @@ Index:
 - [[Apache Kafka partitioning]]
 - [[Apache Kafka producers]]
 - [[Apache Kafka consumers]]
+- [[Apache Kafka brokers]]
 - [[Apache Kafka CLI]]
+- [[Apache Kafka Zookeeper]]
+- Python SDK:
+	- [[Apache Kakfa Python producer config]]
+	- [[Apache Kafka Python send data]]
+	- [[Apache Kafka Python callback functions]]
