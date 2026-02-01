@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
+                "file": "Data processing/Apache Spark/Pyspark/Pyspark index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apache Kafka index"
+              "title": "Pyspark index"
             }
           },
           {
-            "id": "1f0caa24260f4c61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data processing/Apache Spark/Pyspark/Pyspark columns.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pyspark columns"
-            }
-          },
-          {
-            "id": "7aab2316d8f68b2c",
+            "id": "1f1904459f970e38",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Databricks index"
             }
+          },
+          {
+            "id": "f0a864ffdc6626b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data architecture/Databricks/Spark structured streaming checkpointing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spark structured streaming checkpointing"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
+                "file": "Data architecture/Databricks/Spark structured streaming checkpointing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apache Kafka index"
+              "title": "Outline of Spark structured streaming checkpointing"
             }
           }
         ],
@@ -210,35 +210,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91d77a38a1396fd4",
+  "active": "9902b979257acc17",
   "lastOpenFiles": [
-    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python send data.md",
-    "Data processing/Apache Kafka/Apache Kafka index.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark columns.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark dataframes.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark dates and timestamps.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark data types.md",
-    "Data processing/Apache Spark/Pyspark/Psypark joins.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark group by.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark working with duplicates.md",
+    "Images/Pasted image 20260201181729.png",
+    "Data architecture/Databricks/Spark structured streaming checkpointing.md",
     "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Spark structured streaming create a streaming pipeline.md",
+    "Images/Pasted image 20260201175122.png",
+    "Data architecture/Databricks/Spark structured streaming introduction.md",
+    "Data processing/Streaming data index.md",
+    "Data processing/Data processing index.md",
+    "Data architecture/Data architecture index.md",
+    "Images/Pasted image 20260201134151.png",
+    "Images/Pasted image 20260201134044.png",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark group by.md",
+    "Data architecture/Databricks/Databricks lakehouse federation.md",
+    "Data architecture/Databricks/Databricks write tables.md",
+    "Data architecture/Databricks/Databricks data profiling.md",
     "Data architecture/Databricks/Databricks python read data.md",
     "Data architecture/Databricks/Databricks python run SQL.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark read data.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark working with null values.md",
-    "Data processing/Apache Kafka/Apache Kafka partitioning.md",
-    "Images/Pasted image 20260125165759.png",
-    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kakfa Python producer config.md",
-    "Data processing/Apache Kafka/Apache Kafka SDK/Apache Kafka Python callback functions.md",
-    "Data architecture/Databricks/Databricks lakehouse federation.md",
-    "Data architecture/Databricks/Databricks magic commands and utilities.md",
-    "Data architecture/Databricks/Databricks unity external locations.md",
-    "Data architecture/Databricks/Databricks unity architecture.md",
-    "Data architecture/Databricks/Databrikcs unity volumes.md",
-    "Data architecture/Databricks/Databrikcs unity schemas.md",
-    "Data architecture/Databricks/Databricks unity catalogs.md",
+    "Data architecture/Databricks/Databricks Spark SQL higher order functions.md",
+    "Data architecture/Databricks/Databricks Spark SQL UDFs.md",
+    "Data architecture/Databricks/Databricks Spark SQL json transformations.md",
+    "Data architecture/Databricks/Databricks Spark SQL functions.md",
     "Data architecture/Databricks/Databricks Spark SQL metadata.md",
+    "Data architecture/Databricks/Databrikcs Spark SQL tables.md",
+    "Data architecture/Databricks/Databricks Spark SQL views.md",
+    "Data architecture/Databricks/Databrikcs Spark SQL read data.md",
+    "Data architecture/Databricks/Databrikcs unity volumes.md",
+    "Data architecture/Databricks/Databricks unity catalogs.md",
+    "Data architecture/Databricks/Databrikcs unity schemas.md",
+    "Images/Pasted image 20260125165759.png",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Images/Pasted image 20260118201238.png",
     "Images/Pasted image 20260118181927.png",
@@ -246,9 +249,6 @@
     "Images/Pasted image 20260117142755.png",
     "Images/Pasted image 20260117135330.png",
     "Images/Pasted image 20260117134435.png",
-    "Images/Pasted image 20260117133745.png",
-    "Excalidraw/Pasted Image 20260117131538_254.png",
-    "Images/Pasted image 20260113132602.png",
     "Data architecture/Databricks",
     "Data storage/HDFS",
     "Data storage",

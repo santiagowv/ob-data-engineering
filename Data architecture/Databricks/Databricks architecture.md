@@ -1,4 +1,4 @@
-![[Drawing 2026-01-10 08.22.05.excalidraw|700]]
+<span style="color:rgb(216, 203, 251)"><span style="color:rgb(216, 203, 251)"></span></span>![[Drawing 2026-01-10 08.22.05.excalidraw|700]]
 # Databricks subscription model
 ![[Pasted image 20260110084022.png|650]]
 # Compute

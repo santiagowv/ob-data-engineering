@@ -27,3 +27,5 @@ Index:
 	- [[Pyspark collect]]
 	- [[Pyspark group by]]
 	- [[Psypark joins]]
+- Spark structured streaming:
+	- [[Spark structured streaming introduction]]

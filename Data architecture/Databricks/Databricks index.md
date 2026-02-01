@@ -24,3 +24,7 @@ Index:
 	- [[Databricks write tables]]
 - Lakehouse:
 	- [[Databricks lakehouse federation]]
+- Spark structured streaming:
+	- [[Spark structured streaming introduction]]
+	- [[Spark structured streaming create a streaming pipeline]]
+	- [[Spark structured streaming checkpointing]]
