@@ -8,35 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "953e234b1762ea70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data processing/Apache Kafka/Apache Kafka index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Apache Kafka index"
-            }
-          },
-          {
-            "id": "91d77a38a1396fd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data processing/Apache Spark/Pyspark/Pyspark index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pyspark index"
-            }
-          },
-          {
-            "id": "1f1904459f970e38",
+            "id": "708bb19178e1cfbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,21 +22,21 @@
             }
           },
           {
-            "id": "f0a864ffdc6626b8",
+            "id": "9d769e8213b5e702",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Spark structured streaming checkpointing.md",
+                "file": "Data architecture/Databricks/Delta lake introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spark structured streaming checkpointing"
+              "title": "Delta lake introduction"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380
+    "width": 378
   },
   "right": {
     "id": "93941b41ffd53ce4",
@@ -183,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Spark structured streaming checkpointing.md",
+                "file": "Data architecture/Databricks/Delta lake introduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spark structured streaming checkpointing"
+              "title": "Outline of Delta lake introduction"
             }
           }
         ],
@@ -210,21 +182,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9902b979257acc17",
+  "active": "9d769e8213b5e702",
   "lastOpenFiles": [
-    "Images/Pasted image 20260201181729.png",
-    "Data architecture/Databricks/Spark structured streaming checkpointing.md",
+    "Images/Pasted image 20260208100110.png",
+    "Data architecture/Databricks/Delta lake introduction.md",
     "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Spark structured streaming create a streaming pipeline.md",
-    "Images/Pasted image 20260201175122.png",
+    "Data architecture/Databricks/Spark auto loader create a streaming pipeline.md",
+    "Data architecture/Databricks/Spark auto loader introduction.md",
+    "Data architecture/Databricks/Spark structured streaming checkpointing.md",
     "Data architecture/Databricks/Spark structured streaming introduction.md",
-    "Data processing/Streaming data index.md",
-    "Data processing/Data processing index.md",
-    "Data architecture/Data architecture index.md",
-    "Images/Pasted image 20260201134151.png",
-    "Images/Pasted image 20260201134044.png",
-    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark group by.md",
+    "Data architecture/Databricks/Spark structured streaming create a streaming pipeline.md",
     "Data architecture/Databricks/Databricks lakehouse federation.md",
     "Data architecture/Databricks/Databricks write tables.md",
     "Data architecture/Databricks/Databricks data profiling.md",
@@ -239,8 +206,14 @@
     "Data architecture/Databricks/Databricks Spark SQL views.md",
     "Data architecture/Databricks/Databrikcs Spark SQL read data.md",
     "Data architecture/Databricks/Databrikcs unity volumes.md",
-    "Data architecture/Databricks/Databricks unity catalogs.md",
     "Data architecture/Databricks/Databrikcs unity schemas.md",
+    "Data architecture/Databricks/Databricks unity catalogs.md",
+    "Data architecture/Databricks/Databricks unity external locations.md",
+    "Data architecture/Databricks/Databricks unity architecture.md",
+    "Images/Pasted image 20260201181729.png",
+    "Images/Pasted image 20260201175122.png",
+    "Images/Pasted image 20260201134151.png",
+    "Images/Pasted image 20260201134044.png",
     "Images/Pasted image 20260125165759.png",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Images/Pasted image 20260118201238.png",
@@ -248,7 +221,6 @@
     "Images/Pasted image 20260117140815.png",
     "Images/Pasted image 20260117142755.png",
     "Images/Pasted image 20260117135330.png",
-    "Images/Pasted image 20260117134435.png",
     "Data architecture/Databricks",
     "Data storage/HDFS",
     "Data storage",

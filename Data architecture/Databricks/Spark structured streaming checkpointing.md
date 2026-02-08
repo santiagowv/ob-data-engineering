@@ -3,4 +3,4 @@ Checkpointing is a <span style="color:rgb(216, 203, 251)">fault-tolerance mechan
 - <span style="color:rgb(216, 203, 251)">Stores metadata</span> about streaming query, execution plan.
 - Tracks processed <span style="color:rgb(216, 203, 251)">offsets and commited results</span>.
 - <span style="color:rgb(216, 203, 251)">Spark first reads the offset log</span> to get the start and <span style="color:rgb(216, 203, 251)">then the end offset</span> of the previous batch.
-- batch id of offset log != batch id of the commit log = the batch failed and <span style="color:rgb(216, 203, 251)">Spark will read the data from the start offset of the previous batch</span>.
+- batch id of offset log != batch id of the commit log = the batch failed and <span style="color:rgb(216, 203, 251)">Spark will re-execute the next batch after the last committed one</span>.

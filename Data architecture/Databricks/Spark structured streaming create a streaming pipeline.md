@@ -15,9 +15,9 @@ customers_schema = StructType(fields = [StructField("customer_id", IntegerType()
 ```
 ## Create read stream
 ```python
-spark.readStream
-	.format("json")
-	.schema(customers_schema)
+spark.readStream\
+	.format("json")\
+	.schema(customers_schema)\
 	.load("/Volumes/gizmobox/landing/operational_data/customers_stream/")
 ```
 # Transform stream
@@ -58,7 +58,7 @@ Controls how the <span style="color:rgb(216, 203, 251)">processed data is writte
 | ---------------- | ----------------------------------------------------------------- |
 | Append (Default) | Writes the new rows arrived since the last micro-batch            |
 | Complete         | Writes the entire result to the sink every time                   |
-| Update           | Wirtes only the rows that have changed since the last micro-batch |
+| Update           | Writes only the rows that have changed since the last micro-batch |
 ```python
 ```python
 streaming_query = customers_transformed_df.writeStream\
@@ -67,4 +67,7 @@ streaming_query = customers_transformed_df.writeStream\
                                             .trigger(processingTime = "2 minutes")\
                                             .option("checkpointLocation", "/Volumes/gizmobox/landing/operational_data/customers_stream/_checkpoint_stream")\                                        .toTable("gizmobox.bronze.customers_stream")
 ```
+# Stop read stream
+```python
+streaming_query.stop()
 ```

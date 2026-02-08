@@ -28,3 +28,7 @@ Index:
 	- [[Spark structured streaming introduction]]
 	- [[Spark structured streaming create a streaming pipeline]]
 	- [[Spark structured streaming checkpointing]]
+	- [[Spark auto loader introduction]]
+	- [[Spark auto loader create a streaming pipeline]]
+- Delta lake:
+	- [[Delta lake introduction]]
