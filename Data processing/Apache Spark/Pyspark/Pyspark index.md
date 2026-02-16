@@ -16,6 +16,7 @@ Index:
 	- [[Pyspark parallelism]]
 	- [[Pyspark partitions]]
 	- [[Pyspark data skewness]]
+	- [[Pyspark dags]]
 - Transformations:
 	- [[Pyspark numbers and statistical functions]]
 	- [[Pyspark working with strings]]

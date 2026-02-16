@@ -27,12 +27,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Delta lake table properties.md",
+                "file": "Data processing/Apache Spark/Pyspark/Pyspark dags.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delta lake table properties"
+              "title": "Pyspark dags"
+            }
+          },
+          {
+            "id": "3752654423382085",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-16 16.31.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-16 16.31.42.excalidraw"
+            }
+          },
+          {
+            "id": "14d7f4d27d1a54aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data architecture/Databricks/Databricks write tables.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Databricks write tables"
             }
           }
         ],
@@ -155,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Delta lake table properties.md",
+                "file": "Data processing/Apache Spark/Pyspark/Pyspark dags.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Delta lake table properties"
+              "title": "Outline of Pyspark dags"
             }
           }
         ],
@@ -182,43 +208,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9902b979257acc17",
+  "active": "8e5d2505fd4690c4",
   "lastOpenFiles": [
-    "Data architecture/Databricks/Delta lake table properties.md",
+    "Excalidraw/Drawing 2026-02-16 16.31.42.excalidraw.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark dags.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data architecture/Databricks/Databricks write tables.md",
     "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Delta lake version history.md",
+    "Data architecture/Databricks/Spark structured streaming introduction.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark data skewness.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark parallelism.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark logical and physical plans.md",
     "Data architecture/Databricks/Delta lake transaction log.md",
-    "Data architecture/Databricks/Delta lake introduction.md",
-    "Data architecture/Databricks/Spark structured streaming checkpointing.md",
-    "Data architecture/Databricks/Spark auto loader introduction.md",
-    "Data architecture/Databricks/Spark auto loader create a streaming pipeline.md",
-    "Data processing/DBT/DBT introduction.md",
+    "Data architecture/Databricks/Spark structured streaming create a streaming pipeline.md",
+    "Data architecture/Databricks/Databricks unity architecture.md",
+    "Excalidraw/Drawing 2026-01-12 10.34.58.excalidraw.md",
+    "Data architecture/Databricks/Databricks architecture.md",
+    "Data architecture/Databricks/Databricks data lakehouse.md",
+    "Data processing/Apache Beam/Apache Beam Window.md",
+    "Data processing/Apache Beam/Apache Beam User-defined function.md",
+    "Data processing/Apache Beam/Apache Beam Trigger.md",
+    "Data processing/Apache Beam/Apache Beam State and timers.md",
+    "Data processing/Apache Beam/Apache Beam PTransform.md",
+    "Data processing/Apache Beam/Apache Beam pipeline.md",
+    "Data processing/Apache Beam/Apache Beam PCollection.md",
+    "Data processing/Apache Beam/Apache Beam introduction.md",
+    "Data processing/Apache Beam/Apache Beam index.md",
+    "Data architecture/Databricks/Delta lake table properties.md",
     "Images/Pasted image 20260208183521.png",
     "Images/Pasted image 20260208172556.png",
-    "Pasted image 20260208172357.png.md",
     "Images/Pasted image 20260208172357.png",
     "Images/Pasted image 20260208164139.png",
     "Data processing/DBT/Pasted image 20260208164128.png",
     "Images/Pasted image 20260208164013.png",
     "Images/Pasted image 20260208163748.png",
-    "Data processing/DBT/DBT index.md",
     "Data processing/DBT",
-    "Data processing/Data processing index.md",
     "Images/Pasted image 20260208100110.png",
-    "Data architecture/Databricks/Spark structured streaming introduction.md",
-    "Data architecture/Databricks/Spark structured streaming create a streaming pipeline.md",
-    "Data architecture/Databricks/Databricks lakehouse federation.md",
-    "Data architecture/Databricks/Databricks write tables.md",
-    "Data architecture/Databricks/Databricks data profiling.md",
-    "Data architecture/Databricks/Databricks python read data.md",
-    "Data architecture/Databricks/Databricks python run SQL.md",
-    "Data architecture/Databricks/Databricks Spark SQL higher order functions.md",
-    "Data architecture/Databricks/Databricks Spark SQL UDFs.md",
-    "Data architecture/Databricks/Databricks Spark SQL json transformations.md",
-    "Data architecture/Databricks/Databricks Spark SQL functions.md",
-    "Data architecture/Databricks/Databricks Spark SQL metadata.md",
-    "Data architecture/Databricks/Databrikcs Spark SQL tables.md",
-    "Data architecture/Databricks/Databricks Spark SQL views.md",
     "Images/Pasted image 20260201181729.png",
     "Images/Pasted image 20260201175122.png",
     "Data processing/Apache Kafka/Apache Kafka SDK",
