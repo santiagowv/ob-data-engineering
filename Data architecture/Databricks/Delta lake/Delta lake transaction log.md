@@ -5,3 +5,4 @@ Every transaction <span style="color:rgb(216, 203, 251)">records the operation</
 # ACID Transactions
 <span style="color:rgb(216, 203, 251)">Partially written data doesn't create a transaction log</span>, readers get the latest version of the data from the transaction log only.
 ![[Pasted image 20260208183521.png|650]]
+- Use `CREATE OR REPLACE` to <span style="color:rgb(216, 203, 251)">retain the transaction history</span> use `DROP` to delete it.

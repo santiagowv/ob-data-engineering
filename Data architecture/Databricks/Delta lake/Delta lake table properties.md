@@ -44,6 +44,14 @@ CREATE TABLE demo.delta_lake.companies
 COMMENT 'This table contains information about some of the successful tech companies.'
 TBLPROPERTIES ('sensitive' = 'true')
 ```
+## Partition table
+```sql
+CREATE TABLE demo.delta_lake.gold_companies_partitioned
+	(company_name STRING,
+	 founded_date DATE
+	 country      STRING
+PARTITIONED BY (country);
+```
 # Generated columns
 Derived or computed columns, whose <span style="color:rgb(216, 203, 251)">values are computed at the time of inserting new records</span>.
 ## Generated identity columns
@@ -74,4 +82,11 @@ CREATE TABLE demo.delta_lake.companies
 	 country STRING)
 COMMENT 'This table contains information about some of the successful tech companies.'
 TBLPROPERTIES ('sensitive' = 'true')
+```
+# Alter table
+<span style="color:rgb(216, 203, 251)">Update</span> existing table properties.
+```sql
+ALTER TABLE demo.delta_lake.companies_china
+	ALTER COLUMN founded_date COMMENT "Date the company was founded"
+	ALTER COLUMN company_id SET NOT NULL;
 ```

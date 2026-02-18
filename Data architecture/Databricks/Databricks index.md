@@ -35,3 +35,4 @@ Index:
 	- [[Delta lake transaction log]]
 	- [[Delta lake version history]]
 	- [[Delta lake table properties]]
+	- [[Delta lake insert overwrite and partitioning]]
