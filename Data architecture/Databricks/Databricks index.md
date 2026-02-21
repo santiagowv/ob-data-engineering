@@ -36,3 +36,4 @@ Index:
 	- [[Delta lake version history]]
 	- [[Delta lake table properties]]
 	- [[Delta lake insert overwrite and partitioning]]
+	- [[Delta lake COPY INTO and Merge commands]]
