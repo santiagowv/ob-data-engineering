@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "2933977503ee7382",
+            "id": "a65cbe240456dfd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
+                "file": "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delta lake compaction optimize and z-order"
+              "title": "Delta live tables introduction"
             }
           }
         ],
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
+                "file": "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Delta lake compaction optimize and z-order"
+              "title": "Outline of Delta live tables introduction"
             }
           }
         ],
@@ -196,10 +196,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2933977503ee7382",
+  "active": "9902b979257acc17",
   "lastOpenFiles": [
-    "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
+    "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
     "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Delta live tables",
+    "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
+    "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
     "Data architecture/Databricks/Delta lake/Delta lake COPY INTO and Merge commands.md",
     "Data architecture/Databricks/Delta lake/Delta lake insert overwrite and partitioning.md",
     "Data architecture/Databricks/Delta lake/Delta lake table properties.md",
@@ -227,8 +230,6 @@
     "Data architecture/Databricks/Databricks unity",
     "Data processing/Data processing index.md",
     "Data processing/Streaming data index.md",
-    "Data architecture/Databricks/Databricks data processing/Databrikcs Spark SQL tables.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
     "Images/Pasted image 20260208183521.png",
     "Images/Pasted image 20260208172556.png",
     "Images/Pasted image 20260208172357.png",
@@ -242,7 +243,6 @@
     "Images/Pasted image 20260201175122.png",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Data architecture/Databricks",
-    "Data storage/HDFS",
-    "Data storage"
+    "Data storage/HDFS"
   ]
 }

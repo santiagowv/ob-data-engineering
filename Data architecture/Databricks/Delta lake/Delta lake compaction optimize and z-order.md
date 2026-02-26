@@ -5,11 +5,12 @@ Process of <span style="color:rgb(216, 203, 251)">combining many smaller files i
 # Types of compaction
 ## File compaction
 <span style="color:rgb(216, 203, 251)">Rewrites many small parquet files</span> into fewer, larger files.
+- For example, having a <span style="color:rgb(216, 203, 251)">delta table that receives streaming micro-batches every few seconds</span>, producing small files.
 ```sql
 OPTIMIZE demo.delta_lake.optimize_stock_prices;
 ```
 ## Z-ORDER compaction
-Rewrites files and <span style="color:rgb(216, 203, 251)">co-locates similar values together</span> across one or more columns using Z-ordering, which can <span style="color:rgb(216, 203, 251)">improve data skipping for filers on those columns</span>.
+Rewrites files and <span style="color:rgb(216, 203, 251)">co-locates similar values together</span> across one or more columns using Z-ordering, which can <span style="color:rgb(216, 203, 251)">improve data skipping for filters on those columns</span>.
 ```sql
 OPTIMIZE demo.delta_lake.optimize_stock_prices
 ZORDER BY stock_id;

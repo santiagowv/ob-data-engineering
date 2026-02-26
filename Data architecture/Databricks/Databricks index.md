@@ -38,3 +38,6 @@ Index:
 	- [[Delta lake insert overwrite and partitioning]]
 	- [[Delta lake COPY INTO and Merge commands]]
 	- [[Delta lake compaction optimize and z-order]]
+	- [[Delta lake Vacuum]]
+- Delta live tables:
+	- [[Delta live tables introduction]]

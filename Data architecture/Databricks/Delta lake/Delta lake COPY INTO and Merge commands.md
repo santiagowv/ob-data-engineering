@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS demo.delta_lake.raw_stock_prices;
 COPY INTO demo.delta_lake.raw_stock_prices
 FROM 'abfss://demo@deacourseextdl202617.dfs.core.windows.net/landing/stock_prices'
 FILEFORMAT = CSV
-FORMAT_OPTIONS ('ingerSchema' = 'true')
+FORMAT_OPTIONS ('inferSchema' = 'true')
 COPY_OPTIONS ('mergeSchema' = 'true');
 ```
 # Merge
