@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7da7052e3d49d397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Databricks index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks index"
-            }
-          },
-          {
-            "id": "d1c794a4864c675c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Databricks index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks index"
-            }
-          },
-          {
             "id": "a65cbe240456dfd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
+                "file": "Data architecture/Databricks/Databricks index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delta live tables introduction"
+              "title": "Databricks index"
+            }
+          },
+          {
+            "id": "87514aa7b9aa6da1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Delta live tables architecture"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
+                "file": "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Delta live tables introduction"
+              "title": "Outline of Delta live tables architecture"
             }
           }
         ],
@@ -196,10 +182,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9902b979257acc17",
+  "active": "87514aa7b9aa6da1",
   "lastOpenFiles": [
-    "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
+    "Images/Pasted image 20260226215953.png",
+    "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
+    "Images/Pasted image 20260226215436.png",
+    "Images/Pasted image 20260226215316.png",
     "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
     "Data architecture/Databricks/Delta live tables",
     "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
     "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
@@ -228,8 +218,6 @@
     "Data architecture/Databricks/Databricks data processing/Databricks Spark SQL functions.md",
     "Data architecture/Databricks/Databricks data processing",
     "Data architecture/Databricks/Databricks unity",
-    "Data processing/Data processing index.md",
-    "Data processing/Streaming data index.md",
     "Images/Pasted image 20260208183521.png",
     "Images/Pasted image 20260208172556.png",
     "Images/Pasted image 20260208172357.png",
@@ -238,9 +226,6 @@
     "Images/Pasted image 20260208164013.png",
     "Images/Pasted image 20260208163748.png",
     "Data processing/DBT",
-    "Images/Pasted image 20260208100110.png",
-    "Images/Pasted image 20260201181729.png",
-    "Images/Pasted image 20260201175122.png",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Data architecture/Databricks",
     "Data storage/HDFS"

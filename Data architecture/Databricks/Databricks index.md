@@ -41,3 +41,4 @@ Index:
 	- [[Delta lake Vacuum]]
 - Delta live tables:
 	- [[Delta live tables introduction]]
+	- [[Delta live tables architecture]]
