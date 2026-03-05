@@ -18,10 +18,10 @@ The system preserves correctness. If <span style="color:rgb(216, 203, 251)">it c
 # AP
 The <span style="color:rgb(216, 203, 251)">system keeps serving request</span>. Data may be temporarily stale (eventual consistency).
 ## Examples
-- **Apache Kafka:** Producers can keep writing even if some broker are unreachable.
+- **Apache Kafka:** <span style="color:rgb(216, 203, 251)">Producers can keep writing</span> even if some broker are unreachable.
 - **Apache Cassandra:** Tunable consistency; <span style="color:rgb(216, 203, 251)">can prioritize availability with eventual convergence</span>.
 - **Amazon DynamoDB:** Always-on writes; <span style="color:rgb(216, 203, 251)">replicas reconcile asynchronously</span>.
 ## Use cases
-- Event ingestion, logs, metrics.
-- Clicksstreams, IoT telemetry.
-- HIgh-throughput data lakes ingestion.
+- <span style="color:rgb(216, 203, 251)">Event ingestion</span>, logs, metrics.
+- <span style="color:rgb(216, 203, 251)">Clicksstreams</span>, IoT telemetry.
+- <span style="color:rgb(216, 203, 251)">HIgh-throughput</span> data lakes ingestion.

@@ -42,3 +42,4 @@ Index:
 - Delta live tables:
 	- [[Delta live tables introduction]]
 	- [[Delta live tables architecture]]
+	- [[Delta live tables compute configuration]]

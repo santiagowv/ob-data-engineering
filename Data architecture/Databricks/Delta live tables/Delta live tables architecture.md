@@ -32,9 +32,9 @@ FROM source;
 - <span style="color:rgb(216, 203, 251)">Improve latency</span> of BI reports.
 - <span style="color:rgb(216, 203, 251)">Data transformation</span> workloads.
 ## Views
-- No physical storage of data.
-- Scope is limited to the pipeline.
-- Cannot be published to Unity Catalog.
+- <span style="color:rgb(216, 203, 251)">No physical storage</span> of data.
+- <span style="color:rgb(216, 203, 251)">Scope is limited</span> to the pipeline.
+- <span style="color:rgb(216, 203, 251)">Cannot be published</span> to Unity Catalog.
 ### Use cases
 - Store <span style="color:rgb(216, 203, 251)">intermediate results to reduce complexity</span>.
 - Enforce <span style="color:rgb(216, 203, 251)">data quality</span> constraints.

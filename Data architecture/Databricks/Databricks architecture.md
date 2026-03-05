@@ -2,6 +2,7 @@
 # Databricks subscription model
 ![[Pasted image 20260110084022.png|650]]
 # Compute
+![[Pasted image 20260228082109.png|579]]
 It referes to a <span style="color:rgb(216, 203, 251)">cluster of virtual machines</span>.
 - The driver node <span style="color:rgb(216, 203, 251)">orchestrates the tasks</span>.
 - The worker nodes <span style="color:rgb(216, 203, 251)">execute the processing</span>.
