@@ -1,4 +1,4 @@
-We use volumes when you need to work with files, not tables, but still want governance.
+We use volumes when <span style="color:rgb(216, 203, 251)">we need to work with files</span>, not tables, but still want governance.
 # Create a volume
 ```sql
 CREATE EXTERNAL VOLUME IF NOT EXISTS operational_data

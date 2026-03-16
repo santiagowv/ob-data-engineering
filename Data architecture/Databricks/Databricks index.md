@@ -40,6 +40,8 @@ Index:
 	- [[Delta lake compaction optimize and z-order]]
 	- [[Delta lake Vacuum]]
 - Delta live tables:
+	- DLT has been updated to Lakeflow Spark Declarative Pipelines (SDP).
 	- [[Delta live tables introduction]]
 	- [[Delta live tables architecture]]
 	- [[Delta live tables compute configuration]]
+	- [[Delta live tables expectations]]

@@ -21,7 +21,7 @@ Best practice in real projects:
 - Metastore.
 - External Hive.
 - AWS Glue metastore.
-- Salesfor Data Cloud.
+- Salesforce Data Cloud.
 - Snowflake.
 # Federation types
 ## Query federation

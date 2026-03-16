@@ -14,3 +14,10 @@ Meant for <span style="color:rgb(216, 203, 251)">automated, production workloads
 - Production <span style="color:rgb(216, 203, 251)">batch processing</span>.
 - <span style="color:rgb(216, 203, 251)">CI/CD</span> execution.
 - One-off <span style="color:rgb(216, 203, 251)">automated runs</span>.
+## Serverless
+Use serverless when we need a <span style="color:rgb(216, 203, 251)">fully managed platform requiring minimal additional configuration</span>:
+## Classic
+Use classic clusters <span style="color:rgb(216, 203, 251)">when we need additional control and configuration for our workloads</span>.
+## Development vs production
+- **Development:** <span style="color:rgb(216, 203, 251)">by default runs the job cluster for two hours</span> every time we run the pipeline.
+- **Production:** by default <span style="color:rgb(216, 203, 251)">job clusters die automatically</span> when the pipeline finishes.
