@@ -45,3 +45,4 @@ Index:
 	- [[Delta live tables architecture]]
 	- [[Delta live tables compute configuration]]
 	- [[Delta live tables expectations]]
+	- [[Delta live tables apply changes API]]

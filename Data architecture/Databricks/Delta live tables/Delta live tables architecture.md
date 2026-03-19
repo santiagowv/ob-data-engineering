@@ -5,6 +5,7 @@
 - Better <span style="color:rgb(216, 203, 251)">optimization</span>.
 ![[Pasted image 20260226215953.png]]
 # Create live dataset
+## SQL
 ```sql
 CREATE OR REFRESH Live Dataset
 	[Data Quality Expectations]
@@ -34,6 +35,34 @@ telephone,
 email,
 CAST(created_date AS DATE) AS created_date
 FROM STREAM(LIVE.bronze_customers) -- treat the table as streaming source and only get the incremental data
+```
+## Python
+```python
+import dlt
+
+@dlt.table()
+def <function_name>():
+	Read Source Data
+	Apply Transformations
+	return <dataframe>
+```
+
+```python
+import dlt
+
+@dlt.table(
+	name = "bronze_addresses",
+	comment = "raw addresses data",
+	table_properties = {"quality":"bronze"}
+)
+def bronze_addresses():
+	return (
+		spark.readStream
+			.format("cloudFiles")
+			.option("coludFiles.format", "csv")
+			.option("cloudFiles.inferColumnTypes", "true)
+			.load("/<volume_path>/addresses/")
+	)
 ```
 # Types of live datasets
 ## Streaming tables

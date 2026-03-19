@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Databricks index.md",
+                "file": "Data architecture/Databricks/Delta live tables/Delta live tables expectations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks index"
+              "title": "Delta live tables expectations"
             }
           },
           {
@@ -213,11 +213,12 @@
   "active": "024fa248dc900cb8",
   "lastOpenFiles": [
     "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables expectations.md",
-    "Images/Pasted image 20260315184847.png",
-    "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables compute configuration.md",
     "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
+    "Data architecture/Databricks/Delta live tables/Delta live tables apply changes API.md",
+    "Data architecture/Databricks/Delta live tables/Delta live tables expectations.md",
+    "Data architecture/Databricks/Delta live tables/Delta live tables compute configuration.md",
+    "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
+    "Images/Pasted image 20260315184847.png",
     "Data security/Data security index.md",
     "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
     "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
