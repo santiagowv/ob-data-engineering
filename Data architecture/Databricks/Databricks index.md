@@ -41,8 +41,12 @@ Index:
 	- [[Delta lake Vacuum]]
 - Delta live tables:
 	- DLT has been updated to Lakeflow Spark Declarative Pipelines (SDP).
-	- [[Delta live tables introduction]]
-	- [[Delta live tables architecture]]
-	- [[Delta live tables compute configuration]]
-	- [[Delta live tables expectations]]
-	- [[Delta live tables apply changes API]]
+	- [[DLT introduction]]
+	- [[DLT architecture]]
+	- [[DLT compute configuration]]
+	- [[DLT expectations]]
+	- [[DLT apply changes API]]
+	- [[DLT materialized views]]
+	- [[DLT manage multiple catalogs and schemas]]
+- Databricks jobs:
+	- [[Databricks jobs workflows]]

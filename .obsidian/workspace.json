@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48839bb5c9f690d1",
+            "id": "58bf537c5cc3ebe2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data security/Data security index.md",
+                "file": "Data architecture/Databricks/Delta live tables/Databricks jobs workflows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data security index"
-            }
-          },
-          {
-            "id": "7828a4885d2fbfbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Delta live tables/Delta live tables expectations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Delta live tables expectations"
-            }
-          },
-          {
-            "id": "024fa248dc900cb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Delta live tables architecture"
-            }
-          },
-          {
-            "id": "abcca3d487ead0ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Delta live tables/Delta live tables compute configuration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Delta live tables compute configuration"
+              "title": "Databricks jobs workflows"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
+                "file": "Data architecture/Databricks/Delta live tables/Databricks jobs workflows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Delta live tables architecture"
+              "title": "Outline of Databricks jobs workflows"
             }
           }
         ],
@@ -210,14 +167,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "024fa248dc900cb8",
+  "active": "58bf537c5cc3ebe2",
   "lastOpenFiles": [
+    "Images/Pasted image 20260322124812.png",
     "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables introduction.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables apply changes API.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables expectations.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables compute configuration.md",
-    "Data architecture/Databricks/Delta live tables/Delta live tables architecture.md",
+    "Data architecture/Databricks/Delta live tables/Databricks jobs workflows.md",
+    "Images/Pasted image 20260321115114.png",
+    "Images/Pasted image 20260321114859.png",
+    "Images/Pasted image 20260321114803.png",
+    "Data architecture/Databricks/Delta live tables/DLT manage multiple catalogs and schemas.md",
+    "Data architecture/Databricks/Delta live tables/DLT materialized views.md",
+    "Data architecture/Databricks/Delta live tables/DLT expectations.md",
+    "Data architecture/Databricks/Delta live tables/DLT compute configuration.md",
+    "Data architecture/Databricks/Delta live tables/DLT architecture.md",
+    "Data architecture/Databricks/Delta live tables/DLT apply changes API.md",
+    "Data architecture/Databricks/Delta live tables/DLT introduction.md",
     "Images/Pasted image 20260315184847.png",
     "Data security/Data security index.md",
     "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
@@ -235,10 +199,6 @@
     "Data architecture/Databricks/Spark structured streaming/Spark structured streaming introduction.md",
     "Data architecture/Databricks/Databricks lakehouse/Databricks lakehouse federation.md",
     "Data architecture/Databricks/Databricks data processing/Databricks write tables.md",
-    "Data architecture/Databricks/Databricks data processing/Databricks data profiling.md",
-    "Data architecture/Databricks/Databricks data processing/Databricks python read data.md",
-    "Data architecture/Databricks/Databricks data processing/Databricks python run SQL.md",
-    "Data architecture/Databricks/Databricks data processing/Databricks Spark SQL higher order functions.md",
     "Images/Pasted image 20260228082825.png",
     "Data security",
     "Images/Pasted image 20260228082637.png",
@@ -252,9 +212,6 @@
     "Data architecture/Databricks/Databricks lakehouse",
     "Data architecture/Databricks/Databricks data processing",
     "Data architecture/Databricks/Databricks unity",
-    "Images/Pasted image 20260208183521.png",
-    "Images/Pasted image 20260208172556.png",
-    "Images/Pasted image 20260208172357.png",
     "Data processing/DBT",
     "Data processing/Apache Kafka/Apache Kafka SDK",
     "Data architecture/Databricks"
