@@ -50,3 +50,5 @@ Index:
 	- [[DLT manage multiple catalogs and schemas]]
 - Databricks jobs:
 	- [[Databricks jobs workflows]]
+- Databricks governance:
+	- [[Databricks access controls]]
