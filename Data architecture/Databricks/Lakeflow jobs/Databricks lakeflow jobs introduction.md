@@ -6,4 +6,7 @@
 # Jobs architecture
 ![[Pasted image 20260321115114.png|519]]
 # Tasks
+Tasks can run <span style="color:rgb(216, 203, 251)">sequentially or in parallel</span>.
 ![[Pasted image 20260322124812.png|521]]
+# Pipelines vs Lakeflow jobs
+Pipelines can be a <span style="color:rgb(216, 203, 251)">task within the orchestration job</span>.

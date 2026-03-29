@@ -39,16 +39,20 @@ Index:
 	- [[Delta lake COPY INTO and Merge commands]]
 	- [[Delta lake compaction optimize and z-order]]
 	- [[Delta lake Vacuum]]
-- Delta live tables:
+- Lakeflow spark declarative pipelines (Delta live tables):
 	- DLT has been updated to Lakeflow Spark Declarative Pipelines (SDP).
-	- [[DLT introduction]]
-	- [[DLT architecture]]
-	- [[DLT compute configuration]]
-	- [[DLT expectations]]
-	- [[DLT apply changes API]]
-	- [[DLT materialized views]]
-	- [[DLT manage multiple catalogs and schemas]]
-- Databricks jobs:
-	- [[Databricks jobs workflows]]
+	- [[SDP introduction]]
+	- [[SDP architecture]]
+	- [[SDP compute configuration]]
+	- [[SDP expectations]]
+	- [[SDP apply changes API]]
+	- [[SDP materialized views]]
+	- [[SDP manage multiple catalogs and schemas]]
+- Databricks lakeflow jobs:
+	- [[Databricks lakeflow jobs introduction]]
+	- [[Databricks lakeflow jobs tasks values]]
 - Databricks governance:
 	- [[Databricks access controls]]
+	- [[Databricks user management]]
+	- [[Databricks permissions]]
+	- [[Databricks delta sharing]]

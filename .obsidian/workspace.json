@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58bf537c5cc3ebe2",
+            "id": "f9a6ae6f5c734095",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Databricks governance/Databricks access controls.md",
+                "file": "Data architecture/Databricks/Databricks index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks access controls"
+              "title": "Databricks index"
+            }
+          },
+          {
+            "id": "952636ea9ef76217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Databricks lakeflow jobs tasks values"
+            }
+          },
+          {
+            "id": "9d967a5900e0caa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Databricks lakeflow jobs introduction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Databricks governance/Databricks access controls.md",
+                "file": "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Databricks access controls"
+              "title": "Outline of Databricks lakeflow jobs tasks values"
             }
           }
         ],
@@ -167,53 +196,52 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58bf537c5cc3ebe2",
+  "active": "952636ea9ef76217",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-03-27 19.37.45.excalidraw.md",
-    "Data architecture/Databricks/Databricks governance/Databricks access controls.md",
     "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Lakeflow jobs",
+    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
+    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP manage multiple catalogs and schemas.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP materialized views.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP apply changes API.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP compute configuration.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP architecture.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP introduction.md",
+    "Data architecture/Databricks/Databricks governance/Databricks delta sharing.md",
+    "Data architecture/Databricks/Databricks governance/Databricks user management.md",
+    "Data architecture/Databricks/Databricks governance/Databricks permissions.md",
+    "Images/Pasted image 20260328081423.png",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark parallelism.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark logical and physical plans.md",
+    "Data architecture/Databricks/Databricks governance/Databricks access controls.md",
+    "Excalidraw/Drawing 2026-03-27 19.37.45.excalidraw.md",
     "Excalidraw/Drawing 2026-03-27 19.33.04.excalidraw.md",
-    "Data architecture/Databricks/Delta live tables/Databricks jobs workflows.md",
     "Data architecture/Databricks/Databricks governance",
     "Images/Pasted image 20260322124812.png",
     "Images/Pasted image 20260321115114.png",
     "Images/Pasted image 20260321114859.png",
     "Images/Pasted image 20260321114803.png",
-    "Data architecture/Databricks/Delta live tables/DLT manage multiple catalogs and schemas.md",
-    "Data architecture/Databricks/Delta live tables/DLT materialized views.md",
-    "Data architecture/Databricks/Delta live tables/DLT expectations.md",
-    "Data architecture/Databricks/Delta live tables/DLT compute configuration.md",
-    "Data architecture/Databricks/Delta live tables/DLT architecture.md",
-    "Data architecture/Databricks/Delta live tables/DLT apply changes API.md",
-    "Data architecture/Databricks/Delta live tables/DLT introduction.md",
     "Images/Pasted image 20260315184847.png",
     "Data security/Data security index.md",
     "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
     "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
     "Data architecture/Databricks/Delta lake/Delta lake COPY INTO and Merge commands.md",
-    "Data architecture/Databricks/Delta lake/Delta lake insert overwrite and partitioning.md",
-    "Data architecture/Databricks/Delta lake/Delta lake table properties.md",
-    "Data architecture/Databricks/Delta lake/Delta lake version history.md",
-    "Data architecture/Databricks/Delta lake/Delta lake transaction log.md",
-    "Data architecture/Databricks/Delta lake/Delta lake introduction.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark auto loader introduction.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming create a streaming pipeline.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming introduction.md",
     "Images/Pasted image 20260228082825.png",
     "Data security",
     "Images/Pasted image 20260228082637.png",
     "Images/Pasted image 20260228082109.png",
     "Images/Pasted image 20260226215953.png",
-    "Images/Pasted image 20260226215436.png",
-    "Data architecture/Databricks/Delta live tables",
+    "Data architecture/Databricks/Spark declarative pipelines",
     "Data architecture/Databricks/Delta lake",
     "Data architecture/Databricks/Spark structured streaming",
     "Data architecture/Databricks/Databricks lakehouse",
     "Data architecture/Databricks/Databricks data processing",
     "Data architecture/Databricks/Databricks unity",
-    "Data processing/DBT",
-    "Data processing/Apache Kafka/Apache Kafka SDK"
+    "Data processing/DBT"
   ]
 }
