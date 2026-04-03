@@ -56,3 +56,6 @@ Index:
 	- [[Databricks user management]]
 	- [[Databricks permissions]]
 	- [[Databricks delta sharing]]
+- Databricks SQL Warehouse:
+	- [[Databricks SQL Warehouse introduction]]
+	- [[Databricks SQL Warehouse parameters]]

@@ -15,3 +15,11 @@ dbutils.jobs.taskValues.get("task-x", "total_records")
 ```json
 {{ tasks.SQLQuery.output.rows }}
 ```
+# Reference task values in task definition
+```
+{{tasks.`task-x`.values.total_records}}
+```
+## Reference task values from loop tasks
+```
+{{input.file_name}}
+```
