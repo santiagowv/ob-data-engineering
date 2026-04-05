@@ -1,0 +1,3 @@
+Caching <span style="color:rgb(216, 203, 251)">provides numerous advantages</span> in data warehouses including:
+- **Speed:** by storing query results or <span style="color:rgb(216, 203, 251)">frequently accessed data in memory or other fast storage mediums</span>, caching can dramatically reduce query execution times.
+- **Reduced cluster usage:** <span style="color:rgb(216, 203, 251)">minimizes the need for additional compute resources</span> by reusing previously computed results.

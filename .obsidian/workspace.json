@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9a6ae6f5c734095",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Spark declarative pipelines/SDP apply changes API.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SDP apply changes API"
-            }
-          },
-          {
-            "id": "3ff8d9a923e1ce4d",
+            "id": "c30a333833fe6572",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,49 +22,21 @@
             }
           },
           {
-            "id": "c30a333833fe6572",
+            "id": "5b2aaf6b507f3645",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse parameters.md",
+                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse caching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks SQL Warehouse parameters"
-            }
-          },
-          {
-            "id": "952636ea9ef76217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Databricks governance/Databricks permissions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks permissions"
-            }
-          },
-          {
-            "id": "9d967a5900e0caa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks lakeflow jobs introduction"
+              "title": "Databricks SQL Warehouse caching"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "view functions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse parameters.md",
+                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse caching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Databricks SQL Warehouse parameters"
+              "title": "Outline of Databricks SQL Warehouse caching"
             }
           }
         ],
@@ -224,43 +182,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c30a333833fe6572",
+  "active": "9902b979257acc17",
   "lastOpenFiles": [
-    "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse parameters.md",
+    "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse caching.md",
     "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse introduction.md",
-    "Data architecture/Databricks/Databricks governance/Databricks permissions.md",
     "Data architecture/Databricks/Spark declarative pipelines/SDP apply changes API.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP architecture.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP compute configuration.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP materialized views.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP manage multiple catalogs and schemas.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP introduction.md",
+    "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse snippets.md",
+    "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse parameters.md",
+    "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse introduction.md",
     "Data architecture/Databricks/Databricks governance/Databricks user management.md",
     "Data architecture/Databricks/Databricks governance/Databricks access controls.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming create a streaming pipeline.md",
+    "Data terms/EL, ELT, ETL.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming introduction.md",
+    "Data architecture/Databricks/Databricks governance/Databricks permissions.md",
     "Data architecture/Databricks/Databricks governance/Databricks delta sharing.md",
     "Data architecture/Databricks/Databricks SQL Warehouse",
     "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
     "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
     "Data architecture/Databricks/Lakeflow jobs",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP manage multiple catalogs and schemas.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP materialized views.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP compute configuration.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP architecture.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP introduction.md",
     "Images/Pasted image 20260328081423.png",
     "Data processing/Apache Spark/Pyspark/Pyspark index.md",
     "Data processing/Apache Spark/Pyspark/Pyspark parallelism.md",
     "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark logical and physical plans.md",
-    "Excalidraw/Drawing 2026-03-27 19.37.45.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-27 19.33.04.excalidraw.md",
     "Data architecture/Databricks/Databricks governance",
     "Images/Pasted image 20260322124812.png",
     "Images/Pasted image 20260321115114.png",
     "Images/Pasted image 20260321114859.png",
     "Images/Pasted image 20260321114803.png",
     "Images/Pasted image 20260315184847.png",
-    "Data security/Data security index.md",
-    "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
-    "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
     "Images/Pasted image 20260228082825.png",
     "Data security",
     "Images/Pasted image 20260228082637.png",

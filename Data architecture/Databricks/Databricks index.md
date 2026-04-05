@@ -59,3 +59,5 @@ Index:
 - Databricks SQL Warehouse:
 	- [[Databricks SQL Warehouse introduction]]
 	- [[Databricks SQL Warehouse parameters]]
+	- [[Databricks SQL Warehouse snippets]]
+	- [[Databricks SQL Warehouse caching]]

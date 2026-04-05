@@ -29,7 +29,7 @@ customers_transformed_df = customers_df.withColumn("file_path", F.col("_metadata
                                        .withColumn("ingestion_date", F.current_timestamp())
 ```
 # Write stream
-<span style="color:rgb(216, 203, 251)">Starts the streaming pipeline</span> and provides metrics..
+<span style="color:rgb(216, 203, 251)">Starts the streaming pipeline</span> and provides metrics.
 ```python
 streaming_query = customers_transformed_df.writeStream\
                                             .format("delta")\
