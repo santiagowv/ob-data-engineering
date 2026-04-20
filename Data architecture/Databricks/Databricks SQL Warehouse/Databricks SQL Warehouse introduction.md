@@ -33,4 +33,4 @@ Autoscaling <span style="color:rgb(216, 203, 251)">adds clusters based on the es
 - 12-22 minutes: add 3 clusters.
 - Over 22 minutes: add 3 clusters plus 1 more for every additional 15 minutes of load.
 - If a <span style="color:rgb(216, 203, 251)">query waits in the queue for 5 minutes, the warehouse scales up</span>.
-- If load reamins low for 15 consecutive minutes, <span style="color:rgb(216, 203, 251)">the warehouse scales down to the minimum needed to handle the peak load</span>.
+- If load remains low for 15 consecutive minutes, <span style="color:rgb(216, 203, 251)">the warehouse scales down to the minimum needed to handle the peak load</span>.

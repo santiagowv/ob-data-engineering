@@ -58,7 +58,7 @@ FROM STREAM(LIVE.bronze_customers) -- treat the table as streaming source and on
 ```python
 @dlt.expect("valid_response", "length(postcode) = 5")
 @dlt.delete_or_drop("valid_address_line_1", "address_line IS NOT NULL")
-@dlt.epect_or_fail("valid_customer_id", "customer_id IS NOT NULL")
+@dlt.expect_or_fail("valid_customer_id", "customer_id IS NOT NULL")
 ```
 
 ```python

@@ -22,21 +22,20 @@
             }
           },
           {
-            "id": "5b2aaf6b507f3645",
+            "id": "28e57e66dcb900b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse caching.md",
+                "file": "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks SQL Warehouse caching"
+              "title": "Delta lake compaction optimize and z-order"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse caching.md",
+                "file": "Data architecture/Databricks/Databricks index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Databricks SQL Warehouse caching"
+              "title": "Outline of Databricks index"
             }
           }
         ],
@@ -182,37 +181,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9902b979257acc17",
+  "active": "c30a333833fe6572",
   "lastOpenFiles": [
     "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse caching.md",
     "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP apply changes API.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP architecture.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP compute configuration.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP materialized views.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP manage multiple catalogs and schemas.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP introduction.md",
     "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse snippets.md",
     "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse parameters.md",
     "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse introduction.md",
+    "Data architecture/Databricks/Databricks governance/Databricks delta sharing.md",
+    "Data architecture/Databricks/Databricks governance/Databricks permissions.md",
     "Data architecture/Databricks/Databricks governance/Databricks user management.md",
     "Data architecture/Databricks/Databricks governance/Databricks access controls.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming create a streaming pipeline.md",
-    "Data terms/EL, ELT, ETL.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming introduction.md",
-    "Data architecture/Databricks/Databricks governance/Databricks permissions.md",
-    "Data architecture/Databricks/Databricks governance/Databricks delta sharing.md",
-    "Data architecture/Databricks/Databricks SQL Warehouse",
+    "Excalidraw/Drawing 2026-03-27 19.37.45.excalidraw.md",
+    "Excalidraw/Drawing 2026-03-27 19.33.04.excalidraw.md",
     "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
     "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP manage multiple catalogs and schemas.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP materialized views.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP apply changes API.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP compute configuration.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP architecture.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP introduction.md",
+    "Data architecture/Databricks/Delta lake/Delta lake Vacuum.md",
+    "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
+    "Data architecture/Databricks/Delta lake/Delta lake COPY INTO and Merge commands.md",
+    "Data architecture/Databricks/Delta lake/Delta lake insert overwrite and partitioning.md",
+    "Data architecture/Databricks/Delta lake/Delta lake table properties.md",
+    "Data architecture/Databricks/Delta lake/Delta lake version history.md",
+    "Data architecture/Databricks/Databricks SQL Warehouse",
     "Data architecture/Databricks/Lakeflow jobs",
     "Images/Pasted image 20260328081423.png",
-    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark parallelism.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
     "Data architecture/Databricks/Databricks governance",
     "Images/Pasted image 20260322124812.png",
     "Images/Pasted image 20260321115114.png",

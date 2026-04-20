@@ -1,5 +1,5 @@
 <span style="color:rgb(216, 203, 251)">Managed orchestration service</span>, fully integrated with the Databricks Data Intelligence platform.
-- <span style="color:rgb(216, 203, 251)">Define, manage and monitor multitask workflows</span> for ETL, analytcs and ML pipelines.
+- <span style="color:rgb(216, 203, 251)">Define, manage and monitor multitask workflows</span> for ETL, analytics and ML pipelines.
 ![[Pasted image 20260321114803.png|548]]
 # Workflows architecture
 ![[Pasted image 20260321114859.png|514]]
