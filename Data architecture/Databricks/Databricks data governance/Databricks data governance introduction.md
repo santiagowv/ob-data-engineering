@@ -1,0 +1,5 @@
+- **Access control and security:** implementing <span style="color:rgb(216, 203, 251)">fine-grained permissions and security measures to protect data from unauthorized access</span> while enabling appropiate use.
+- **Data lineage and observability:** <span style="color:rgb(216, 203, 251)">Tracking data flows and transformations to understand data origins</span>, dependencies, and usage patterns.
+- **Data quality management:** <span style="color:rgb(216, 203, 251)">Ensuring data is accurate, complete, consistent</span>, and reliable for decision-making and analytics.
+- **Metadata management:** Capturing and <span style="color:rgb(216, 203, 251)">maintaining information about data assets to improve discoverability and understanding</span>.
+- **Compliance enforcement:** Meeting <span style="color:rgb(216, 203, 251)">regulatory requirements and organizational policies</span> for data privacy, retention, and usage.

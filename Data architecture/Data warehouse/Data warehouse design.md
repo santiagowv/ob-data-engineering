@@ -4,11 +4,9 @@ Common approaches to building a data warehouse are:
 - Kimball's approach.
 # Data warehouse model types
 ## Enterprise
-Corporate wide data integration from one or more operational systems or external data providers.
+Corporate wide data <span style="color:rgb(216, 203, 251)">integration from one or more operational systems</span> or external data providers.
 ## Data mart
-Subset of corporate wide data that is of value to a specific collection of users.
+Subset of corporate wide data that is of <span style="color:rgb(216, 203, 251)">value to a specific collection of users</span>.
 A data mart is divided into two parts:
-- **Independent data mart:** the source data comes from one or more operational systems.
-- **Dependent data mart:** the source data comes from exactly from enterprise data warehouses.
-## Virtual warehouse
-This is a set of perception over the operational databasefor effective query processing.
+- **Independent data mart:** the <span style="color:rgb(216, 203, 251)">source data comes from one or more operational systems</span>.
+- **Dependent data mart:** the source <span style="color:rgb(216, 203, 251)">data comes from exactly from enterprise data warehouses</span>.

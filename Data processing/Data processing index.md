@@ -1,5 +1,5 @@
 Index:
-- [[Data terms index]]
+- [[Data concepts index]]
 - [[Streaming data index]]
 - [[Apache Beam index]]
 - [[Apache Spark index]]

@@ -6,8 +6,8 @@ Index:
 - [[Apache Kafka consumers]]
 - [[Apache Kafka brokers]]
 - [[Apache Kafka CLI]]
-- [[Apache Kafka Zookeeper]]
+- [[Apache Kafka zookeeper]]
 - Python SDK:
-	- [[Apache Kakfa Python producer config]]
-	- [[Apache Kafka Python send data]]
-	- [[Apache Kafka Python callback functions]]
+	- [[Apache Kakfa python producer config]]
+	- [[Apache Kafka python send data]]
+	- [[Apache Kafka python callback functions]]

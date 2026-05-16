@@ -7,6 +7,13 @@ There are two governance layers:
 # ABAC
 <span style="color:rgb(216, 203, 251)">Use govern tags</span> with row level filtering or column masking.
 ![[Drawing 2026-03-27 19.37.45.excalidraw]]
+# Who can manage priviliges?
+Priviliges can be granted by any of the following:
+- The <span style="color:rgb(216, 203, 251)">owner of the object</span>.
+- The <span style="color:rgb(216, 203, 251)">owner of the catalog or schema</span> that contains the object.
+- A user with the `MANAGE` privilige on the object.
+- A metastore admin.
+
 # Apply govern tags to table columns
 ```sql
 ALTER TABLE abac_demo.customer_data.profiles
