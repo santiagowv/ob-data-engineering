@@ -8,6 +8,7 @@ Index:
 	- [[Databricks unity catalog catalogs]]
 	- [[Databrikcs unity catalog schemas]]
 	- [[Databrikcs unity catalog volumes]]
+	- [[Databricks configure connections to external data systems]]
 - Databricks data processing (SQL):
 	- [[Databrikcs spark SQL read data]]
 	- [[Databricks spark SQL views]]
@@ -55,9 +56,10 @@ Index:
 	- [[Databricks data governance system tables]]
 	- [[Databricks data governance quality]]
 	- [[Databricks data governance access controls]]
-	- [[Databricks data governance user management]]
+	- [[Databricks data governance identities]]
 	- [[Databricks data governance permissions]]
 	- [[Databricks data governance delta sharing]]
+	- [[Databricks data governance constraints]]
 - Databricks SQL Warehouse:
 	- [[Databricks SQL warehouse introduction]]
 	- [[Databricks SQL warehouse parameters]]
