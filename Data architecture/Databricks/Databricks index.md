@@ -60,6 +60,7 @@ Index:
 	- [[Databricks data governance permissions]]
 	- [[Databricks data governance delta sharing]]
 	- [[Databricks data governance constraints]]
+	- [[Databricks data governance PII, PHI, Encryption and privacy]]
 - Databricks SQL Warehouse:
 	- [[Databricks SQL warehouse introduction]]
 	- [[Databricks SQL warehouse parameters]]

@@ -1,5 +1,6 @@
 ---
 Databricks connections: https://docs.databricks.com/aws/en/connect/
+Databricks SFTP connector: https://docs.databricks.com/aws/en/ingestion/sftp
 ---
 # Query federation connectors
 Provides <span style="color:rgb(216, 203, 251)">read-only access to data</span> in enterprise data systems.
@@ -32,3 +33,41 @@ Grants <span style="color:rgb(216, 203, 251)">short-lived credentials using the 
 ## Requirements
 - <span style="color:rgb(216, 203, 251)">External access must be configured on the metastore</span> with `EXTERNAL USE SCHEMA` granted to the requesting principal.
 - <span style="color:rgb(216, 203, 251)">Workspace URL must be accessible to the requesting engine</span>, including engines behind IP access lists.
+# Ingest files from SFTP servers
+SFTP connector extends auto loader functionality to provide secure, <span style="color:rgb(216, 203, 251)">incremental ingestion from SFTP servers with Unity Catalog Governance</span>.
+The SFTP connector offers the following:
+- <span style="color:rgb(216, 203, 251)">Private key and password-based</span> authentication.
+- <span style="color:rgb(216, 203, 251)">Incremental file ingestion and processing</span> with exactly-once guarantees.
+- Automatic schema inference, evolution, and data rescue.
+- Unity catalog <span style="color:rgb(216, 203, 251)">governance for secure ingestion and credentials</span>.
+- Wide file format support:
+	- `JSON,` `CSV`, `XML`, `PARQUET`, `AVRO`, `TEXT`, `BINARYFILE`, and `ORC`.
+- <span style="color:rgb(216, 203, 251)">Built-in support for pattern and wildcard matching</span> to easily target data subsets.
+## Read files from the SFTP server with autoloader
+```python
+# Run the Auto Loader job to ingest all existing data in the SFTP server.  
+# The <username> and <host> in the URI must match the connection created in the previous step.  
+# The connector automatically resolves the matching Unity Catalog connection for authentication.  
+df = (spark.readStream.format("cloudFiles")  
+.option("cloudFiles.schemaLocation", "<path to store schema information>") # This is a cloud storage path  
+.option("cloudFiles.format", "csv") # Or other format supported by Auto Loader  
+# Specify the absolute path on the SFTP server starting from the root /.  
+# Example: /home/<username>/data/files or /uploads/csv_files  
+.load("sftp://<username>@<host>:<port>/<absolute_path_to_files>")  
+.writeStream  
+.format("delta")  
+.option("checkpointLocation", "<path to store checkpoint information>") # This is a cloud storage path.  
+.trigger(availableNow = True)  
+.table("<table name>"))  
+df.awaitTermination()
+```
+### Auto loader lakeflow spark declarative pipelines
+```sql
+CREATE OR REFRESH STREAMING TABLE sftp_bronze_table  
+AS SELECT * FROM STREAM read_files(  
+"sftp://<username>@<host>:<port>/<absolute_path_to_files>",  
+format => "csv"  
+)
+```
+## Limitations
+- SFTP is not supported across other ingestion surfaces, including `COPY INTO`, `spark.read` and `dbutils.ls`.
