@@ -1,6 +1,6 @@
-![[Pasted image 20260315184847.png|630]]
+![[Pasted image 20260315184847.png|592]]
 There are three types of expectations:
-- Warning.
+- Warning. 
 - Drop.
 - Fail
 # Syntax

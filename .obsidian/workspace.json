@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SDP expectations"
+            }
+          },
+          {
+            "id": "baf3b1a35ae2c9f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Data security/Data security index.md",
                 "mode": "source",
                 "source": false
@@ -22,73 +36,31 @@
             }
           },
           {
-            "id": "03404cb4e8f6ade8",
+            "id": "868fa9fa38dcf1da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Databricks index.md",
+                "file": "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks index"
+              "title": "Databricks unity catalog catalogs"
             }
           },
           {
-            "id": "cbd7ce603b96de16",
+            "id": "bf41b14c4d8b7947",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog binding.md",
+                "file": "Data security/Pretty good privacy (PGP).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Databricks unity catalog binding"
-            }
-          },
-          {
-            "id": "27b8ef524e7ef1bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Databricks data governance/Databricks data governance PII, PHI, Encryption and privacy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks data governance PII, PHI, Encryption and privacy"
-            }
-          },
-          {
-            "id": "30a6ec4012919e64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data processing/Data ingestion/SFTP protocol.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SFTP protocol"
-            }
-          },
-          {
-            "id": "bcb42a9e7e6d87ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Databricks data governance/Databricks data governance access controls.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks data governance access controls"
+              "title": "Pretty good privacy (PGP)"
             }
           }
         ],
@@ -149,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315
+    "width": 321
   },
   "right": {
     "id": "93941b41ffd53ce4",
@@ -211,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog binding.md",
+                "file": "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Databricks unity catalog binding"
+              "title": "Outline of Databricks unity catalog catalogs"
             }
           }
         ],
@@ -238,18 +210,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9902b979257acc17",
+  "active": "868fa9fa38dcf1da",
   "lastOpenFiles": [
+    "Data architecture/Databricks/Databricks index.md",
+    "Excalidraw/Drawing 2026-01-12 10.34.58.excalidraw.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog architecture.md",
+    "Data processing/Data ingestion/SFTP protocol.md",
+    "Data security/Pretty good privacy (PGP).md",
+    "Data architecture/Databricks/Spark structured streaming/Spark auto loader introduction.md",
+    "Excalidraw/Drawing 2026-05-23 11.17.50.excalidraw.md",
+    "Data security/Data security index.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+    "Data security/Securing PII data.md",
+    "Data security/Securing HIPAA data.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance PII, PHI, Encryption and privacy.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance constraints.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
+    "Data security/Datasecops introduction.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance quality.md",
+    "Data architecture/Databricks/Databricks data processing/Databricks spark SQL UDFs.md",
+    "Data architecture/Databricks/Databricks data processing/Databricks python data profiling.md",
+    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
+    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
+    "Data architecture/Databricks/Delta lake/Delta lake table properties.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog binding.md",
     "Images/Pasted image 20260518222249.png",
     "Images/Pasted image 20260518221847.png",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog binding.md",
-    "Data architecture/Databricks/Databricks index.md",
-    "Data security/Securing HIPAA data.md",
-    "Data security/Data security index.md",
-    "Data security/Datasecops introduction.md",
-    "Data security/Securing PII data.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance PII, PHI, Encryption and privacy.md",
-    "Data processing/Data ingestion/SFTP protocol.md",
     "Data architecture/Databricks/Databricks data governance/Databricks data governance access controls.md",
     "Data architecture/Databricks/Databricks data governance/Databricks data governance system tables.md",
     "Images/Pasted image 20260516200034.png",
@@ -260,24 +246,10 @@
     "Images/Pasted image 20260516182227.png",
     "Data architecture/Databricks/Databricks data processing/Databricks spark SQL json transformations.md",
     "Data architecture/Databricks/Databricks data processing/Databrikcs spark SQL read data.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance identities.md",
-    "Excalidraw/Drawing 2026-05-16 06.08.23.excalidraw.md",
-    "Data processing/Data processing index.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks configure connections to external data systems.md",
-    "Data processing/Data ingestion/Data ingestion index.md",
-    "Data architecture/Databricks/Databricks lakehouse/Databricks lakehouse federation.md",
-    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
     "Images/Pasted image 20260516110246.png",
     "Images/Pasted image 20260516104514.png",
-    "Data processing/DBT/DBT index.md",
-    "Data processing/DBT/DBT introduction.md",
-    "Data processing/DBT/DBT modularity.md",
     "Untitled",
-    "Data processing/Streaming data index.md",
     "Data processing/Data ingestion",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance constraints.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog external locations.md",
-    "Images/Pasted image 20260516082228.png",
     "Data architecture/Databricks/Databricks unity catalog/Databricks data governance",
     "Data governances",
     "Data architecture/Databricks/Databricks SQL Warehouse",

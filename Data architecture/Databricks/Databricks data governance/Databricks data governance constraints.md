@@ -1,7 +1,6 @@
 ---
 Constraints on Databricks: https://docs.databricks.com/aws/en/tables/constraints
 ---
-
 - Enforced constraints <span style="color:rgb(216, 203, 251)">verify data integrity before adding rows to a table</span>.
 - Informational primary key and foreign key <span style="color:rgb(216, 203, 251)">constraints define relationships between fields in tables and aren't enforced</span>.
 # Enforced constraints on Databricks

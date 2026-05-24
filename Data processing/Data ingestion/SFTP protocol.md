@@ -14,6 +14,7 @@ Two common methods:
 Many <span style="color:rgb(216, 203, 251)">files transferred via SFTP are also encrypted using PGP (Pretty Good Privacy</span>. Especially when data has any form of PII, PHI.
 ### PGP key pair encryption
 The <span style="color:rgb(216, 203, 251)">sender encrypts the file or message using the recipient's public key</span>, and the <span style="color:rgb(216, 203, 251)">recipient decrypts it with their private key</span>.
+- Data is protected in transit between the sender and the SFTP server. However, <span style="color:rgb(216, 203, 251)">SFTP does not guarantee that the file remains encrypted after landing</span>.
 ![[Pasted image 20260516110246.png|504]]
 ## PGP signatures
 <span style="color:rgb(216, 203, 251)">Verify the authenticity and integrity</span> of a file or message through digital signatures. The file will be checked to <span style="color:rgb(216, 203, 251)">ensure we actually know who sent it</span>.
@@ -44,6 +45,17 @@ sftp user@hostname e.g. sftp dan@example.com
 - `rename old_file_name new_file_name` renames a given file on the server.
 - `pwd` shows the current directory on the server.
 - `lpwd` shows the current local directory.
+# Client-server first connection
+<span style="color:rgb(216, 203, 251)">First-time connection</span> with key authentication:
+1. Client connects to server.
+2. Server sends its host public key.
+3. Client asks user: "Do you trust this server?"
+4. User accepts.
+5. Client saves server public key in known_hosts.
+6. SSH creates encrypted session.
+7. Client proves identity using its private key.
+8. Server checks client public key in authorized_keys.
+9. Access granted.
 # SFTP best practices
 - Use <span style="color:rgb(216, 203, 251)">key rotation and secure storage</span> on the SFTP server.
 - Ensure SFTP <span style="color:rgb(216, 203, 251)">server is always up to date with security updates and patches</span>.
