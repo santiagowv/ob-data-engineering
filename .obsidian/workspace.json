@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73a79846b6afe859",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SDP expectations"
-            }
-          },
-          {
-            "id": "baf3b1a35ae2c9f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data security/Data security index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data security index"
-            }
-          },
-          {
-            "id": "868fa9fa38dcf1da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databricks unity catalog catalogs"
-            }
-          },
-          {
             "id": "bf41b14c4d8b7947",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data security/Pretty good privacy (PGP).md",
+                "file": "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pretty good privacy (PGP)"
+              "title": "Spark auto loader create a streaming pipeline"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
+                "file": "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Databricks unity catalog catalogs"
+              "title": "Outline of Spark auto loader create a streaming pipeline"
             }
           }
         ],
@@ -210,45 +167,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "868fa9fa38dcf1da",
+  "active": "bf41b14c4d8b7947",
   "lastOpenFiles": [
     "Data architecture/Databricks/Databricks index.md",
-    "Excalidraw/Drawing 2026-01-12 10.34.58.excalidraw.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog architecture.md",
-    "Data processing/Data ingestion/SFTP protocol.md",
-    "Data security/Pretty good privacy (PGP).md",
     "Data architecture/Databricks/Spark structured streaming/Spark auto loader introduction.md",
-    "Excalidraw/Drawing 2026-05-23 11.17.50.excalidraw.md",
-    "Data security/Data security index.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
+    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
+    "Data architecture/Databricks/Delta lake/Delta lake COPY INTO and MERGE commands.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance permissions.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance access controls.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance PII, PHI, Encryption and privacy.md",
     "Data security/Securing PII data.md",
     "Data security/Securing HIPAA data.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance PII, PHI, Encryption and privacy.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance constraints.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
-    "Data security/Datasecops introduction.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance quality.md",
-    "Data architecture/Databricks/Databricks data processing/Databricks spark SQL UDFs.md",
-    "Data architecture/Databricks/Databricks data processing/Databricks python data profiling.md",
-    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs tasks values.md",
-    "Data architecture/Databricks/Lakeflow jobs/Databricks lakeflow jobs introduction.md",
-    "Data architecture/Databricks/Delta lake/Delta lake table properties.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog binding.md",
+    "Excalidraw/Drawing 2026-05-16 06.08.23.excalidraw.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance identities.md",
+    "Excalidraw/Drawing 2026-01-12 10.34.58.excalidraw.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog architecture.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databrikcs unity catalog volumes.md",
+    "Data security/Pretty good privacy (PGP).md",
+    "Data storage/Snowflake/Snowflake index.md",
+    "Data storage/Data storage index.md",
+    "Data security/Data security index.md",
+    "Data architecture/Databricks/Spark declarative pipelines/SDP expectations.md",
+    "Data storage/Snowflake/Snowflake warehouse.md",
+    "Images/Pasted image 20260525123537.png",
+    "Images/Pasted image 20260525123156.png",
+    "Data storage/Snowflake/Snowflake objects.md",
+    "Images/Pasted image 20260525112645.png",
+    "Images/Pasted image 20260525102154.png",
+    "Data storage/Snowflake/Snowflake introduction.md",
+    "Data storage/Snowflake/Snowflake architecture.md",
+    "Images/Pasted image 20260525091620.png",
+    "Images/Pasted image 20260525082616.png",
+    "Data storage/Snowflake",
+    "Data architecture/Data architecture index.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
     "Images/Pasted image 20260518222249.png",
     "Images/Pasted image 20260518221847.png",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance access controls.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance system tables.md",
     "Images/Pasted image 20260516200034.png",
     "Images/Pasted image 20260516195835.png",
-    "Images/Pasted image 20260516194818.png",
-    "Images/Pasted image 20260516193647.png",
-    "Images/Pasted image 20260516191005.png",
-    "Images/Pasted image 20260516182227.png",
-    "Data architecture/Databricks/Databricks data processing/Databricks spark SQL json transformations.md",
-    "Data architecture/Databricks/Databricks data processing/Databrikcs spark SQL read data.md",
-    "Images/Pasted image 20260516110246.png",
-    "Images/Pasted image 20260516104514.png",
-    "Untitled",
     "Data processing/Data ingestion",
     "Data architecture/Databricks/Databricks unity catalog/Databricks data governance",
     "Data governances",
