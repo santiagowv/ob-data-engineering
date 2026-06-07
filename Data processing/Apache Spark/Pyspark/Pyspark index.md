@@ -1,3 +1,7 @@
+- **Worker:** physical/VM node.
+- **Executor:** spark process running on a worker.
+- **Core:** parallel task slot inside an executor.
+- **Partition:** chunk of data processed by one task.
 Index:
 - [[Pyspark introduction]]
 - [[Pyspark driver configuration]]

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data storage/Data storage index.md",
+                "file": "Data architecture/Databricks/Delta lake/Delta lake introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data storage index"
+              "title": "Delta lake introduction"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data storage/Delta lake/Delta lake index.md",
+                "file": "Data storage/Delta lake/Delta lake transaction log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delta lake index"
+              "title": "Delta lake transaction log"
             }
           }
         ],
@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data storage/Delta lake/Delta lake index.md",
+                "file": "Data storage/Delta lake/Delta lake transaction log.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Delta lake index"
+              "title": "Outline of Delta lake transaction log"
             }
           }
         ],
@@ -198,34 +198,34 @@
   },
   "active": "d726a2ff9ff1196f",
   "lastOpenFiles": [
+    "Data architecture/Databricks/Databricks index.md",
+    "Data architecture/Databricks/Delta lake/Delta lake transaction log deprecated.md",
+    "Data storage/Delta lake/Delta lake transaction log.md",
+    "Excalidraw/Drawing 2026-06-06 18.14.30.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-06 18.33.17.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-06 19.07.50.excalidraw.md",
+    "Data storage/Delta lake/Delta lake index.md",
+    "Data governance/Data governance introduction.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark logical and physical plans.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark partitions.md",
+    "Data processing/Apache Spark/Pyspark/Pyspark parallelism.md",
+    "Data processing/Apache Spark/Apache Spark index.md",
+    "Data processing/Apache Spark/Spark architecture.md",
+    "Data storage/Delta lake/Delta lake data reliability.md",
+    "Data storage/Delta lake/Delta lake DML operations.md",
+    "Data storage/Delta lake/Delta lake ACID.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog external locations.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks configure connections to external data systems.md",
+    "Data architecture/Databricks/Delta lake/Delta lake introduction.md",
+    "Data architecture/Data architecture index.md",
+    "Data storage/Data storage index.md",
     "Data processing/Streaming data index.md",
     "Data concepts/Data concepts index.md",
     "Data concepts/Data concepts index 1.md",
-    "Data governance/Data governance introduction.md",
     "Data governance/Data governance index.md",
-    "Data processing/Data processing index.md",
-    "Data concepts/ACID compliance.md",
     "Data concepts",
-    "Data processing/DBT/DBT modularity.md",
-    "Data processing/DBT/DBT introduction.md",
-    "Data processing/DBT/DBT index.md",
-    "Data processing/Data ingestion/Data ingestion index.md",
-    "Data processing/Apache Beam/Apache Beam index.md",
-    "Data processing/Apache Spark/Apache Spark index.md",
-    "Data processing/Apache Spark/Pyspark/Pyspark index.md",
-    "Data processing/Apache Spark/Spark architecture.md",
-    "Data architecture/Databricks/Databricks index.md",
-    "Data security/Data security index.md",
-    "Data storage/Delta lake/Delta lake index.md",
     "Data storage/Delta lake",
-    "Data storage/Data storage index.md",
-    "Data storage/Snowflake/Snowflake index.md",
-    "Data architecture/Data architecture index.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark auto loader create a streaming pipeline.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark auto loader introduction.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming checkpointing.md",
-    "Data architecture/Databricks/Delta lake/Delta lake COPY INTO and MERGE commands.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance permissions.md",
     "Images/Pasted image 20260525123537.png",
     "Images/Pasted image 20260525123156.png",
     "Images/Pasted image 20260525112645.png",
