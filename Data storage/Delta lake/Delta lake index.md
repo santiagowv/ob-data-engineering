@@ -3,3 +3,7 @@ Index:
 - [[Delta lake DML operations]]
 - [[Delta lake data reliability]]
 - [[Delta lake transaction log]]
+- [[Delta lake pessimistic vs optimistic concurrency]]
+- [[Delta lake time travel and versioning]]
+- [[Delta lake schema validation]]
+- [[Delta lake schema evolution]]
