@@ -4,3 +4,6 @@ Index:
 - [[DBT yaml]]
 - [[DBT dags]]
 - [[DBT components]]
+- [[DBT commands]]
+- [[DBT sources]]
+- [[DBT freshness]]
