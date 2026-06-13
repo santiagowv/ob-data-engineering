@@ -34,7 +34,6 @@ Index:
 	- [[Spark auto loader create a streaming pipeline]]
 - Delta lake:
 	- [[Delta lake introduction]]
-	- [[Delta lake version history]]
 	- [[Delta lake table properties]]
 	- [[Delta lake insert overwrite and partitioning]]
 	- [[Delta lake COPY INTO and MERGE commands]]

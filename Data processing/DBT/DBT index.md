@@ -1,3 +1,6 @@
 Index:
 - [[DBT introduction]]
-- [[DBT modularity]]
+- [[DBT Jinja]]
+- [[DBT yaml]]
+- [[DBT dags]]
+- [[DBT components]]

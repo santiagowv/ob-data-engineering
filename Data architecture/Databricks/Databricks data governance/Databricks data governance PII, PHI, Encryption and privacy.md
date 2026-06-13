@@ -29,7 +29,7 @@ Extra security controls for the workspace's compute environment. It is <span sty
 ## Materialized views automatically handle deletions
 ![[Pasted image 20260516195835.png|577]]
 It always <span style="color:rgb(216, 203, 251)">returns the correct result because it uses incremental computation</span> if it is cheaper than full recomputation.
-## Delete data and read streaming source usin SkipChangeCommits
+## Delete data and read streaming source using SkipChangeCommits
 Streaming tables process <span style="color:rgb(216, 203, 251)">append-only data when they stream from Delta table</span> sources.
 ![[Pasted image 20260516200034.png]]
 # PII data handling

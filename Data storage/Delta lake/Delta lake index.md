@@ -7,3 +7,4 @@ Index:
 - [[Delta lake time travel and versioning]]
 - [[Delta lake schema validation]]
 - [[Delta lake schema evolution]]
+- [[Delta lake deletion vectors]]

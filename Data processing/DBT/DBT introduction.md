@@ -1,4 +1,5 @@
-<span style="color:rgb(216, 203, 251)">DBT sits on top of the data platform</span> to support transformations, validation and metadata handling.
+Open-source tool that allows data analysts and engineers to <span style="color:rgb(216, 203, 251)">transform data inside their modern data platform</span>.
+- <span style="color:rgb(216, 203, 251)">DBT sits on top of the data platform</span> to support transformations, validation and metadata handling.
 ![[Pasted image 20260208163748.png|600]]
 # Version-controlled transformations
 DBT enables <span style="color:rgb(216, 203, 251)">version control for all transformations</span>. This ensures data transformations are organized and consistent.
