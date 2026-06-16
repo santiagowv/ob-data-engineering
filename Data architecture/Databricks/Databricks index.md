@@ -10,6 +10,7 @@ Index:
 	- [[Databrikcs unity catalog volumes]]
 	- [[Databricks configure connections to external data systems]]
 	- [[Databricks unity catalog binding]]
+	- [[Databricks unity catalog lakehouse monitoring]]
 - Databricks data processing (SQL):
 	- [[Databrikcs spark SQL read data]]
 	- [[Databricks spark SQL views]]

@@ -7,3 +7,7 @@ Index:
 - [[DBT commands]]
 - [[DBT sources]]
 - [[DBT freshness]]
+- [[DBT folder structure]]
+- [[DBT properties and configurations]]
+- [[DBT custom schema configuration]]
+- [[DBT testing]]
