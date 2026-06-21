@@ -9,3 +9,4 @@ Index:
 - [[Delta lake schema evolution]]
 - [[Delta lake deletion vectors]]
 - [[Delta lake shallow and deep clones]]
+- [[Delta lake OPTIMIZE command]]
