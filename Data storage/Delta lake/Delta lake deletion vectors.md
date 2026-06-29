@@ -3,7 +3,7 @@ Delta Lake supports <span style="color:rgb(216, 203, 251)">different strategies 
 Delta Lake <span style="color:rgb(216, 203, 251)">rewrites the affected parquet files when rows are updated or deleted</span>. More efficient for read-heavy workloads.
 - If a file contains 1 million rows and 10 rows are deleted, <span style="color:rgb(216, 203, 251)">Delta Lake does not modify the file in place</span>.
 - It creates a new version of the file without those 10 rows and <span style="color:rgb(216, 203, 251)">marks the old file as removed in the Delta transaction log</span>.
-Key points:
+## Key points
 - Used when <span style="color:rgb(216, 203, 251)">deletion vectors are disabled</span>.
 - Affected parquet <span style="color:rgb(216, 203, 251)">files are rewritten</span>.
 - Unaffected files are not touched.
@@ -15,7 +15,7 @@ Key points:
 The orginal parquet files remain unchanged. Instead of rewriting the file immediately, <span style="color:rgb(216, 203, 251)">Delta Lake records deleted rows in a separate deletion vectors</span>. Faster for write-heavy workloads.
 - A deletion vector is <span style="color:rgb(216, 203, 251)">metadata that tracks which row positions in a Parquet file</span> should be considered deleted.
 - When a query reads the file, <span style="color:rgb(216, 203, 251)">Delta Lake also reads the deletion vector and skips the deleted rows</span> at query time.
-Key points:
+## Key points
 - Used when deletion vectors are enabled.
 - Original parquet <span style="color:rgb(216, 203, 251)">files are not immediately rewritten</span>.
 - <span style="color:rgb(216, 203, 251)">Deleted rows are tracked separately</span> using deletion vectors.

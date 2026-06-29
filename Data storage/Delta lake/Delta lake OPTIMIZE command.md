@@ -3,7 +3,7 @@ A Delta table is stored as a <span style="color:rgb(216, 203, 251)">collection o
 - <span style="color:rgb(216, 203, 251)">Read file-level metadata</span> and parquet footers for many files.
 - Schedule <span style="color:rgb(216, 203, 251)">many small tasks across executors</span>.
 - Many small storage I/O requests rather than fewer, <span style="color:rgb(216, 203, 251)">larger sequential reads</span>.
-# Common root causes of samll files
+# Common root causes of small files
 ## Excessive output partitions
 10 GB of data -> 10.000 partitions.
 - This often happens after an <span style="color:rgb(216, 203, 251)">unnecessary</span> `repartition(10000)`.

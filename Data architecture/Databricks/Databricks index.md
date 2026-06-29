@@ -66,3 +66,5 @@ Index:
 	- [[Databricks SQL warehouse parameters]]
 	- [[Databricks SQL warehouse snippets]]
 	- [[Databricks SQL warehouse caching]]
+- Databricks CI/CD:
+	- [[Declarative automation bundles]]

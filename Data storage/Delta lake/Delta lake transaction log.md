@@ -8,8 +8,8 @@ New files only, no mutations.
 2. Appends a commit JSON with `add` actions pointing to those files.
 ![[Drawing 2026-06-06 18.14.30.excalidraw]]
 # Delete
-Rewrite affected files, mark old as removed.
-- Rewrites every affected parquet file without the deleted rows (unaffected files are not touched at all).
+<span style="color:rgb(216, 203, 251)">Rewrite affected files</span>, mark old as removed.
+- Rewrites every affected parquet file <span style="color:rgb(216, 203, 251)">without the deleted rows</span> (unaffected files are not touched at all).
 - The single commit JSON contains both a `remove` action and an `add` action pointer to the new file.
 ![[Drawing 2026-06-06 18.33.17.excalidraw]]
 # Update
