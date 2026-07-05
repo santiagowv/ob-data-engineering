@@ -4,8 +4,13 @@
 - Reduces cloud <span style="color:rgb(216, 203, 251)">storages costs</span>.
 - Improves <span style="color:rgb(216, 203, 251)">query performance</span>.
 - Helps <span style="color:rgb(216, 203, 251)">comply with privacy regulations</span>.
-
-```SQL
+![[Drawing 2026-07-05 18.43.39.excalidraw]]
+# Use VACUUM
+- Disable the safety check
+```sql
 SET spark.databricks.delta.retentionDurationCheck.enabled = false;
-VACUUM demo.delta_lake.optimize_stock_prices RETAIN 0 HOURS;
+```
+- Delete files older than 1 hour.
+```sql
+VACUUM main.sales.orders RETAIN 1 HOURS;
 ```

@@ -39,7 +39,6 @@ Index:
 	- [[Delta lake insert overwrite and partitioning]]
 	- [[Delta lake COPY INTO and MERGE commands]]
 	- [[Delta lake compaction optimize and z-order]]
-	- [[Delta lake vacuum]]
 - Lakeflow spark declarative pipelines (Delta live tables). DLT has been updated to Lakeflow Spark Declarative Pipelines (SDP):
 	- [[SDP introduction]]
 	- [[SDP architecture]]

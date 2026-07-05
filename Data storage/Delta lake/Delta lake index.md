@@ -10,3 +10,4 @@ Index:
 - [[Delta lake deletion vectors]]
 - [[Delta lake shallow and deep clones]]
 - [[Delta lake OPTIMIZE command]]
+- [[Delta lake VACUUM]]
