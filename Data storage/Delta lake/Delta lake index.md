@@ -11,3 +11,5 @@ Index:
 - [[Delta lake shallow and deep clones]]
 - [[Delta lake OPTIMIZE command]]
 - [[Delta lake VACUUM]]
+- [[Delta lake zorder]]
+- [[Delta lake liquid clustering]]
