@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data storage/Delta lake/Delta lake index.md",
+                "file": "Data architecture/Databricks/Databricks index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delta lake index"
+              "title": "Databricks index"
+            }
+          },
+          {
+            "id": "9e8a7051e3059c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data architecture/Databricks/Databricks SQL Warehouse/Databricks SQL Warehouse introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Databricks SQL Warehouse introduction"
+            }
+          },
+          {
+            "id": "bab79a3b7b70a925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data storage/Delta lake/Delta lake DML operations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Delta lake DML operations"
             }
           }
         ]
@@ -80,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440
+    "width": 432
   },
   "right": {
     "id": "93941b41ffd53ce4",
@@ -172,33 +200,32 @@
   },
   "active": "54a72fd56c3bb935",
   "lastOpenFiles": [
-    "Data storage/Delta lake/Delta lake ACID.md",
     "Data storage/Delta lake/Delta lake liquid clustering.md",
     "Data storage/Delta lake/Delta lake index.md",
-    "Data architecture/Databricks/Databricks index.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance identities.md",
-    "Images/Pasted image 20260516082228.png",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance permissions.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance constraints.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance delta sharing.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance access controls.md",
-    "Excalidraw/Drawing 2026-03-27 19.37.45.excalidraw.md",
-    "Excalidraw/Drawing 2026-03-27 19.33.04.excalidraw.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance introduction.md",
-    "Excalidraw/Drawing 2026-05-16 06.08.23.excalidraw.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance quality.md",
-    "Data architecture/Databricks/Databricks data governance/Databricks data governance system tables.md",
-    "Data architecture/Databricks/Spark declarative pipelines/SDP architecture.md",
-    "Data architecture/Databricks/Spark structured streaming/Spark structured streaming introduction.md",
-    "Data architecture/Databricks/Databricks lakehouse/Databricks lakehouse federation.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog lakehouse monitoring.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks configure connections to external data systems.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog external locations.md",
-    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog architecture.md",
     "Excalidraw/Drawing 2026-01-12 10.34.58.excalidraw.md",
-    "Data architecture/Databricks/Databricks magic commands and utilities.md",
-    "Data architecture/Databricks/Databricks data lakehouse.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog architecture.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog catalogs.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks unity catalog binding.md",
+    "Data architecture/Databricks/Databricks unity catalog/Databricks configure connections to external data systems.md",
+    "Data architecture/Databricks/Delta lake/Delta lake compaction optimize and z-order.md",
+    "Data storage/Delta lake/Delta lake zorder.md",
+    "Excalidraw/Drawing 2026-07-12 16.07.50.excalidraw.md",
+    "Data architecture/Databricks/Delta lake/Delta lake COPY INTO and MERGE commands.md",
+    "Data architecture/Databricks/Databricks index.md",
+    "Data storage/Delta lake/Delta lake VACUUM.md",
+    "Data architecture/Databricks/Delta lake/Delta lake transaction log deprecated.md",
+    "Data storage/Delta lake/Delta lake ACID.md",
+    "Data architecture/Databricks/Delta lake/Delta lake insert overwrite and partitioning.md",
+    "Data architecture/Databricks/Delta lake/Delta lake table properties.md",
+    "Data architecture/Databricks/Delta lake/Delta lake introduction.md",
+    "Excalidraw/Drawing 2026-07-05 18.43.39.excalidraw.md",
+    "Data architecture/Databricks/Delta lake/Delta lake vacuum222.md",
+    "Data storage/Delta lake/Delta lake OPTIMIZE command.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance permissions.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance identities.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance introduction.md",
+    "Data architecture/Databricks/Databricks data governance/Databricks data governance access controls.md",
+    "Data storage/Delta lake/Delta lake DML operations.md",
     "Data architecture/Databricks/Databricks CI-CD",
     "Images/Pasted image 20260620193326.png",
     "Images/Pasted image 20260615163550.png",
