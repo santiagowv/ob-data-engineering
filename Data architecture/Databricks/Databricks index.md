@@ -65,3 +65,5 @@ Index:
 	- [[Databricks SQL warehouse caching]]
 - Databricks CI/CD:
 	- [[Declarative automation bundles]]
+- Databricks AI:
+	- [[Genie code]]
