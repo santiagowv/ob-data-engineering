@@ -84,16 +84,16 @@ It supports:
 - Manually adding MCP servers.
 # Commands
 
-|Prompt text|What Genie Code does|
-|---|---|
-|`/`|Displays common commands|
-|`/doc`|Comments the code in a diff view|
-|`/explain`|Provides an explanation of the code in a cell|
-|`/fix`|Proposes a fix to any code errors in a diff view|
-|`/findTables`|Searches for relevant tables based on Unity Catalog metadata. To find features or feature tables, mention “features” or “feature tables” in the query. See [Find features and feature tables using Genie Code](https://docs.databricks.com/aws/en/machine-learning/feature-store/uc/ui-uc#features).|
-|`/findQueries`|Searches for relevant queries based on Unity Catalog metadata.|
-|`/optimize`|Suggests performance improvements for SQL queries.|
-|`/prettify`|Formats SQL queries for readability.|
+| Prompt text    | What Genie Code does                                                                                                                                                                                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/`            | Displays common commands                                                                                                                                                                                                                                                                             |
+| `/doc`         | Comments the code in a diff view                                                                                                                                                                                                                                                                     |
+| `/explain`     | Provides an explanation of the code in a cell                                                                                                                                                                                                                                                        |
+| `/fix`         | Proposes a fix to any code errors in a diff view                                                                                                                                                                                                                                                     |
+| `/findTables`  | Searches for relevant tables based on Unity Catalog metadata. To find features or feature tables, mention “features” or “feature tables” in the query. See [Find features and feature tables using Genie Code](https://docs.databricks.com/aws/en/machine-learning/feature-store/uc/ui-uc#features). |
+| `/findQueries` | Searches for relevant queries based on Unity Catalog metadata.                                                                                                                                                                                                                                       |
+| `/optimize`    | Suggests performance improvements for SQL queries.                                                                                                                                                                                                                                                   |
+| `/prettify`    | Formats SQL queries for readability.                                                                                                                                                                                                                                                                 |
 # Pricing
 Pay-as-you-go model. There are no seats or per-user licenses. <span style="color:rgb(216, 203, 251)">We pay for consumption, metered in DBUs</span> based on the underlying LLM usage.
 - <span style="color:rgb(216, 203, 251)">Each user gets 150 free DBUs</span> (around $10.50/month) per month for Genie usage.
@@ -106,7 +106,7 @@ Each tasks <span style="color:rgb(216, 203, 251)">executes the prompt as a full 
 - Each run <span style="color:rgb(216, 203, 251)">creates a new chat</span>.
 - Runs <span style="color:rgb(216, 203, 251)">use our permissions</span>.
 ## Limitations
-- <span style="color:rgb(216, 203, 251)">Cannot be shared</span> with other uses.
+- <span style="color:rgb(216, 203, 251)">Cannot be shared</span> with other users.
 - <span style="color:rgb(216, 203, 251)">Count towards our Genie usage</span>.
 # Models
 Uses a compound AI system rather than a single large language model. <span style="color:rgb(216, 203, 251)">Combines AI models with retrieval, ranking, and personalization components</span> to interpret the questions.

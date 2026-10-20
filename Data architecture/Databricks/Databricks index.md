@@ -67,3 +67,7 @@ Index:
 	- [[Declarative automation bundles]]
 - Databricks AI:
 	- [[Genie code]]
+- Databricks compute:
+	- [[Databricks serverless compute]]
+	- [[Databricks best practices for serverless compute]]
+	- [[Databricks query profile]]
