@@ -41,3 +41,10 @@
 	- Object dependencies.
 - Metadata manager and cache <span style="color:rgb(216, 203, 251)">help speed up query parsing</span> by providing information on table and column names.
 ## Security
+- The cloud service layer is responsible for data encryption at rest and in transit (TLS). Snowflake <span style="color:rgb(216, 203, 251)">uses AES256 encryption for data at rest</span>.
+- <span style="color:rgb(216, 203, 251)">Security manages encryption keys used to secure data</span>. This includes key generation, rotation, storage and destruction.
+- Security <span style="color:rgb(216, 203, 251)">maintains detailed logs of user activities</span> including logins, data access, query execution and modifications.
+- <span style="color:rgb(216, 203, 251)">Monitors the platform for suspicious activities</span> or potential security breaches in real time.
+- <span style="color:rgb(216, 203, 251)">Manages the permissions and access controls</span> that govern which users or accounts can access shared data ensuring that data is only shared with authorized entities.
+- <span style="color:rgb(216, 203, 251)">Enforces network security policies</span> such as Virtual Private Cloud (VPC) configurations, IP whitelisting and network access controls.
+	- <span style="color:rgb(216, 203, 251)">These policies help control and secure access to Snowflake environments</span> over the network.

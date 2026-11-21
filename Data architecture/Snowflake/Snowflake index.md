@@ -3,4 +3,4 @@ Index:
 - [[Snwoflake storage]]
 - [[Snowflake architecture]]
 - [[Snowflake objects]]
-- [[Snowflake warehouse]]
+- [[Snowflake virtual warehouse]]
