@@ -1,9 +1,12 @@
 Index:
 - [[Snowflake introduction]]
+- [[Snowflake editions]]
 - [[Snwoflake storage]]
 - [[Snowflake architecture]]
 - [[Snowflake objects]]
 - [[Snowflake virtual warehouse]]
 - [[Snowflake snowpipes]]
 - [[Snowflake tasks]]
+- [[Snowflake streams]]
 - [[Apache iceberg]]
+- [[Snowflake cost]]
